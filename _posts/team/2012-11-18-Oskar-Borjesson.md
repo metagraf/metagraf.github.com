@@ -1,7 +1,7 @@
 ---
 layout: team
 category : team
-tags : 
+tags : tagteam
 name: Oskar Börjesson
 ---
 {% include JB/setup %}
