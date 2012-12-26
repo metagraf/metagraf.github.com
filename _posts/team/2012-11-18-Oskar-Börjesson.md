@@ -5,10 +5,8 @@ tags : tagteam
 name: Oskar Börjesson
 position: Software Architect
 skills: 
-  -name: Java
-  level: 3
-  -name: Ruby
-  level: 2
+  -{name: Java, level: 3}
+  -{name: Ruby, level: 2}
 
 
 ---
