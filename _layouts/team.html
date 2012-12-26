@@ -16,6 +16,7 @@ layout: default
     <h4>Specialiteter</h4>
     <ul>
       {% for skill in page.skills %} 
+        {{skill}}
         <li><span> {{skill.name}} - Level: {{skill.level}}</span></li>
       {% endfor %}
     </ul>
