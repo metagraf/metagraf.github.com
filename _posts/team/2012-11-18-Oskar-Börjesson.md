@@ -3,6 +3,7 @@ layout: team
 category : team
 tags : tagteam
 name: Oskar Börjesson
+picture: oskbor.png
 position: Software Architect
 skills: 
   - {name: Java, level: 3}
