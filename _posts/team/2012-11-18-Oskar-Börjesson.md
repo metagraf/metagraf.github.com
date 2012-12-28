@@ -2,6 +2,7 @@
 layout: team
 category : team
 tags : tagteam
+permalink: /:categories/:title
 name: Oskar Börjesson
 picture: oskbor.png
 position: Software Architect
