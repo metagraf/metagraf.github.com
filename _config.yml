@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Metagraf.se
-tagline: Visualiserar framtiden
+tagline: Visualiserar och hanterar din data
 author :
   name : Metagraf AB
   email : info@metagraf.se
