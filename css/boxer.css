@@ -116,19 +116,19 @@ h2.boxer_title {
 	background-color:#fff;
 	height:80px;
 }
-.boxer_footer a {
+.contacts a {
     color:#555;
     text-decoration:none;
-    text-align:center;
+    text-align:right;
     
 }
-.boxer_footer ul {
+.contacts ul {
 	margin:0;
-    text-align:center;
+    text-align:right;
     padding-top:20px;
 }
 
-.boxer_footer ul li {
+.contacts ul li {
 	margin-top:20px;
     padding-right:20px;
 	display:inline;
