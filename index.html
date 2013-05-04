@@ -1,381 +1,145 @@
----
-layout: page
-title: Metagraf AB
-tagline: Visualiserar och hanterar din data
----
-{% include JB/setup %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Metagraf - Data Analysis and Visualizations</title>
+    <meta name="description" content="We are a company specialized in data analysis and visualizations using Open Source tooling.">
+    <meta name="author" content="Metagraf AB">
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+    <link href='css/boxer.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/elusive-webfont.css">
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <script src="js/boxer.js"></script>
+    <!-- elusive icons ie7 support -->
+    <!--[if lte IE 7]><script src="js/lte-ie7.js"></script><![endif]-->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+      body {
+        padding-top: 50px; /* Only include this for the fixed top bar */
+      }
+    </style>
+  </head>
+  <body id="top">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#top">Metagraf</a>
 
-<!-- MAIN CONTENT AREA: SLIDER BANNER (REVOLUTION SLIDER) -->
-                <div class="bannercontainer" >
-                    <div class="banner" >
-                        <ul>
-<!-- MAIN CONTENT AREA: SLIDER BANNER (REVOLUTION SLIDER) - SLIDE 1 [SLIDE STYLE=BOXFADE] -->
-                            <li class="slide1" data-transition="boxfade" data-slotamount="5"  data-masterspeed="300">
-                                <img alt="" src="/assets/images/titanic.png" />
-                                <div class="caption sft carousel-caption" data-x="110" data-y="110" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none;">
-                                    <p class="middle">Beautiful, clean, ultra-responsive & highly flexible</p>
-
-                                </div>
-                                <div class="caption sfl carousel-caption" data-x="98" data-y="141" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                    <p class="big">An Incredible New</p>
-                                </div>
-                                <div class="caption sfl carousel-caption" data-x="98" data-y="191" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                    <p class="big">HTML5 Template!</p>
-                                </div>
-                                <div class="caption sfb carousel-caption" data-x="111" data-y="247" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none; width: 436px;">
-                                    <p class="small">Bring your website into the 21st century with bizstrap. Beautiful, clean, ultra-responsive and highly flexible bizstrap puts you firmly in control of your new site build or site bizstrap.</p>
-                                </div>
-
-                            </li>
-<!-- MAIN CONTENT AREA: SLIDER BANNER (REVOLUTION SLIDER) - SLIDE 2 [SLIDE STYLE=LEFT] -->
-                            <li class="slide2" data-transition="slideleft" data-slotamount="10"  data-masterspeed="300">
-                                <img alt="" src="/assets/images/weather.png" />
-                                <div class="caption sft carousel-caption" data-x="472" data-y="69" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none;">
-                                    <p class="middle">Is your business website mobile ready?</p>
-
-                                </div>
-                                <div class="caption sfr carousel-caption" data-x="462" data-y="107" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                    <p class="big">20% of all web</p>
-                                </div>
-                                <div class="caption sfl carousel-caption" data-x="462" data-y="156" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                    <p class="big">traffic today is from</p>
-                                </div>
-                                <div class="caption sfl carousel-caption" data-x="462" data-y="205" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                    <p class="big">mobile devices</p>
-                                </div>
-                                <div class="caption sfb carousel-caption" data-x="474" data-y="262" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none; width: 436px;">
-                                    <p class="small">The mobile revolution is here. Is your business ready for it? Built using the latest web technology platform and framework; HTML5, CSS3 and Twitter Bootstrap, bizstrap allows you to create one site that renders beautifully on all devices, including computers, tablet and phones.</p>
-                                </div>
-                            </li>
-<!-- MAIN CONTENT AREA: SLIDER BANNER (REVOLUTION SLIDER) - SLIDE 3 [SLIDE STYLE=SLIDE DOWN] -->
-                            <li class="slide3" data-transition="slidedown" data-slotamount="1" data-masterspeed="300">
-                                <img alt="" src="img/slider03.png" />
-                                <div class="caption sft carousel-caption" data-x="43" data-y="184" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none; padding-left: 0;">
-                                    <p class="middle">Create beautiful pages quickly and easily...</p>
-                                </div>
-                                <div class="caption sfl carousel-caption" data-x="0" data-y="228" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none; padding-left: 0; width: 781px;">
-                                    <p class="big">Over 30 Shortcuts and Rapid-Design Page Templates!</p>
-                                </div>
-                                <div class="caption sfb carousel-caption" data-x="0" data-y="281" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none; padding-left: 0; width: 100%;">
-                                    <p class="small">Creating beautiful and highly functional web pages doesn’t have to take hours. In fact, with over 30 pre-made page templates, bizstrap makes<br /> creating great looking web pages quick and easy.</p>
-                                </div>
-                            </li>
-<!-- MAIN CONTENT AREA: SLIDER BANNER (REVOLUTION SLIDER) - SLIDE 4 [SLIDE STYLE=BOXFADE] -->
-                            <li class="slide4" data-transition="boxfade" data-slotamount="5"  data-masterspeed="300">
-                                <img alt="" src="img/slider07.png" />
-                                                <div class="caption sft carousel-caption" data-x="45" data-y="78" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none;">
-                                                    <p class="middle">Slap the page with a Sticky Note!</p>
-
-                                                </div>
-                                                <div class="caption sfl carousel-caption" data-x="26" data-y="107" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                                    <p class="big">Got a special message</p>
-                                                </div>
-                                                <div class="caption sfl carousel-caption" data-x="26" data-y="160" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                                    <p class="big">you want to stand out on a</p>
-                                                </div>
-                                                <div class="caption sfl carousel-caption" data-x="26" data-y="214" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                                    <p class="big">particular web page?</p>
-                                                </div>
-                                                <div class="caption sfb carousel-caption" data-x="42" data-y="265" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none; width: 436px;">
-                                                    <p class="small">When you have a special message on a particular web page that you want to get a across to your visitors then slap that page with one of bizstrap's exclusive sticky notes. You'll find that website visitors simply can't resist them.</p>
-                                                </div>
-                                                <div class="caption sfl carousel-caption stick1" data-x="450" data-y="52" data-speed="1400" data-start="1000" data-easing="easeInExpo" style="background: none;">
-                                                    <img alt="" src="img/slide_stick01.png" />
-                                                </div>
-                                                <div class="caption sfl carousel-caption stick2" data-x="607" data-y="52" data-speed="1400" data-start="1500" data-easing="easeInExpo" style="background: none;">
-                                                    <img alt="" src="img/slide_stick02.png" />
-                                                </div>
-                                                <div class="caption sfl carousel-caption stick3" data-x="764" data-y="52" data-speed="1400" data-start="2000" data-easing="easeInExpo" style="background: none;">
-                                                    <img alt="" src="img/slide_stick03.png" />
-                                                </div>
-                                                <div class="caption sfl carousel-caption stick4" data-x="450" data-y="208" data-speed="1400" data-start="2500" data-easing="easeInExpo" style="background: none;">
-                                                    <img alt="" src="img/slide_stick04.png" />
-                                                </div>
-                                                <div class="caption sfl carousel-caption stick5" data-x="607" data-y="208" data-speed="1400" data-start="3000" data-easing="easeInExpo" style="background: none;">
-                                                    <img alt="" src="img/slide_stick05.png" />
-                                                </div>
-                                                <div class="caption sfl carousel-caption stick6" data-x="764" data-y="208" data-speed="1400" data-start="3500" data-easing="easeInExpo" style="background: none;">
-                                                    <img alt="" src="img/slide_stick06.png" />
-                                                </div>
-                                            </li>                            
-<!-- MAIN CONTENT AREA: SLIDER BANNER (REVOLUTION SLIDER) - SLIDE 5 [SLIDE STYLE=SLOTFADE HORIZONTAL] -->
-                            <li class="slide5" data-transition="slotfade-horizontal"  data-masterspeed="300" data-slotamount="20">
-                                <img alt="" src="img/slider04.png" />
-                                <div class="caption sft carousel-caption" data-x="468" data-y="71" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none; padding-left: 0;">
-                                    <p class="middle">Smart, very smart indeed!</p>
-                                </div>
-                                <div class="caption sfr carousel-caption" data-x="454" data-y="105" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                    <p class="big">The Smart Choice for</p>
-                                </div>
-                                <div class="caption sfr carousel-caption" data-x="454" data-y="154" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                    <p class="big">Building Your</p>
-                                </div>
-                                <div class="caption sfr carousel-caption" data-x="454" data-y="205" data-speed="1000" data-start="1000" data-easing="easeOutBack" style="background: none;">
-                                    <p class="big">Business Website</p>
-                                </div>
-                                <div class="caption sfb carousel-caption" data-x="480" data-y="268" data-speed="1000" data-start="1000" data-easing="easeInBack" style="background: none; padding-left: 0;">
-                                    <p class="small">Affordable, effective and easy-to-use bizstrap is the smart choice for building and managing your business website. Smart, very smart indeed!</p>
-                                </div>
-                            </li>
-
-                    </ul>
-                        <div class="tp-bannertimer"></div>
-                    </div>
-                </div>
-                <div class="row main-block">
-                    <div class="span12">
-                        <div class="row">
-<!-- MAIN CONTENT AREA: REDESIGN CUSTOM - HERO BLOCK 1 (TEXT BLOCK)] -->
-                            <div class="span6 home-block hero-block-1">
-                                <h1>Say hello to bizstrap!</h1>
-                                <h2>Clean, modern & ultra-responsive</h2>
-                                <p>bizstrap is a clean, modern and ultra-responsive site template designed and built from the ground up using the latest and greatest web technologies and framework. And, with over 30 stunning and highly useful feature shortcuts and rapid-design page templates you can effortlessly turn your organization’s website into a stunning product and/or services showcase that you’ll not only be proud of, but your customers will greatly respect. Affordable, effective and easy-to-use bizstrap is the smart choice for building and managing your business website. Smart, very smart indeed!</p>
-                            </div>
-<!-- MAIN CONTENT AREA: SPACER BETWEEN HERO BLOCK 1 AND HEREO BLOCK 2 -->
-                            <div class="span1">
-                            </div>
-<!-- MAIN CONTENT AREA: bizstrap CUSTOM - HERO BLOCK 2 -->
-                            <div class="span5 home-block">
-                                <div class="grey-box hero-block-2">
-                                    <h2><a href="#">Effective Action Boxes That Get Results</a></h2>
-                                    <p><img alt="" src="img/release_icon.png" />Great web pages utilize effective calls to action  to grab the attention of the intended audience. bizstrap allows you to quickly and easily create highly effective action boxes.</p>
-                                    <a href="#" class="btn btn-warning"><i class="icon-shopping-cart"></i>Buy it now just for $18</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="row main-block">
-                    <div class="span12">
-<!-- MAIN CONTENT AREA: bizstrap CUSTOM - HERO LIST -->
-                        <div class="row show-grid hero-list">
-                            <div class="span3">
-                                <div class="image-wrapper">
-                                    <img alt="" src="img/ruler.png" />
-                                </div>
-                                <h2>Clean Design</h2>
-                                <p>Modern, clean design to give your business a highly professional appearance.
-                                    <a href="#">Learn more&nbsp;&raquo;</a>
-                                </p>
-                            </div>
-                            <div class="span3">
-                                <div class="image-wrapper">
-                                    <img alt="" src="img/equaliser.png" />
-                                </div>
-                                <h2>Flexible Layout</h2>
-                                <p>Flexible page layout templates to help you quickly organize your website's content.
-                                    <a href="#">Learn more&nbsp;&raquo;</a>
-                                </p>
-                            </div>
-                            <div class="span3">
-                                <div class="image-wrapper">
-                                    <img alt="" src="img/direction.png" />
-                                </div>
-                                <h2>Quick Shortcuts</h2>
-                                <p>Dozens of unique shortcuts to add your own cool and custom flare.
-                                    <a href="#">Learn more&nbsp;&raquo;</a>
-                                </p>
-                            </div>
-                            <div class="span3">
-                                <div class="image-wrapper">
-                                    <img alt="" src="img/both_arrows.png" />
-                                </div>
-                                <h2>Responsive</h2>
-                              <p>Ultra-responsive design so your pages work beautifully on practically any device.
-                                    <a href="#">Learn more&nbsp;&raquo;</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="horizontal-divider span12"></div>
-                </div>
-<!-- MAIN CONTENT AREA: bizstrap CUSTOM - PORTFOLIO GRID BLOCK (ORIGINALLY DESIGNED FOR HOME PAGE) -->
-                <div class="portfolio-grid-1 main-block">
-                    <div class="title-wrapper">
-                        <h2>Check out our awesome latest work</h2><a class="all" href="#">Show all works&nbsp;&raquo;</a>
-                    </div>
-                    <div class="clear-both"></div>
-                    <div id="home_responsive" class="row show-grid">
-                        <div class="span3 small hp-wrapper">
-                            <a class="fancy" href="img/gal_2.jpg">
-                                <img alt="" class="hover-shade" src="img/220_1_hover.png" />
-                            </a>
-                            <a class="top-link" href="#"><img alt="" src="img/item_220-160_08.jpg" /></a>
-                            <div class="bottom-block">
-                                <a href="#">Integer posuere</a>
-                                <p>UI Design</p>
-                            </div>
-                        </div>
-                        <div class="span6 middle hp-wrapper">
-                            <a class="fancy" href="img/img05.jpg"><img alt="" class="hover-shade" src="img/460_hover.png" />
-                            </a>
-                            <a class="top-link" href="#">
-                                <img alt="" style="width: 460px; height: 160px;" src="img/item_460-160_01.jpg" />
-                            </a>
-                            <div class="bottom-block">
-                                <a href="#">Pellen tesque ornare</a>
-                                <p>Graphic Design</p>
-                            </div>
-                        </div>
-                        <div class="span6 middle hp-wrapper">
-                            <a class="fancy" href="img/img07.jpg"><img alt="" class="hover-shade" src="img/460_hover.png" />
-                            </a>
-                            <a class="top-link" href="#"><img alt="" style="width: 460px; height: 160px;" src="img/item_460-160_03.jpg" /></a>
-                            <div class="bottom-block">
-                                <a href="#">Pellen tesque ornare</a>
-                                <p>Graphic Design</p>
-                            </div>
-                        </div>
-                        <div class="span3 tall hp-wrapper">
-                            <a class="fancy" href="img/img08.jpg"><img alt="" class="hover-shade" src="img/220_2_hover.png" />
-                            </a>
-                            <a class="top-link" href="#"><img alt="" style="width: 220px; height: 340px;" src="img/item_460-340_03.jpg" /></a>
-                            <div class="bottom-block">
-                                <a href="#">Pellen tesque ornare</a>
-                                <p>Graphic Design</p>
-                            </div>
-                        </div>
-                        <div class="span3 small hp-wrapper">
-                            <a class="fancy" href="img/gal_7.jpg"><img alt="" class="hover-shade" src="img/220_1_hover.png" />
-                            </a>
-                            <a class="top-link" href="#"><img alt="" style="width: 220px; height: 160px;" src="img/item_220-160_01.jpg" /></a>
-                            <div class="bottom-block">
-                                <a href="#">Integer posuere</a>
-                                <p>UI Design</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-<!-- MAIN CONTENT AREA: bizstrap CUSTOM - HORIZONTAL TESTIMONIAL BLOCK -->
-                <div class="main-block testimonials">
-                    <div class="title-wrapper">
-                        <h2>Testimonials</h2><a href="#" class="all">Show all Client Testimonials&nbsp;&raquo;</a>
-                    </div>
-                    <div class="clear-both"></div>
-                    <div class="row show-grid">
-                        <div class="span12">
-                            <div class="testimonials-block">
-                                <div class="quote"></div>
-                                <p class="first-row">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.</p>
-                                <p></p>
-                                <p class="autor">Mr.Sam , Manager</p>
-                            </div>
-                        </div>
-                    </div>
-<!-- MAIN CONTENT AREA: bizstrap CUSTOM - HERO BLOCK 3 -->
-                    <div class="row show-grid">
-                        <div class="span12 grey-box">
-                            <div class="hero-block3">
-                                <div class="row show-grid">
-                                    <div class="span9">
-                                        <div class="hero-content-3">
-                                            <h2>Get your copy of bizstrap today!</h2>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Integer sed arcu massa.</p>
-                                        </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tour-btn">
-                                            <a href="#" class="btn btn-warning">Buy Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-<!-- MAIN CONTENT AREA: bizstrap CUSTOM - RECENT POSTS BLOACK (ORIGINALLY DESIGNED FOR HOME PAGE) -->
-                <div class="main-block block-posts">
-                    <div class="title-wrapper">
-                        <h2>Recent Posts</h2><a href="#" class="all">Visit the full blog&nbsp;&raquo;</a>
-                    </div>
-                    <div class="row show-grid clear-both">
-                        <div class="span12">
-                            <div class="row show-grid">
-                                <div class="span3">
-                                    <a class="block-post-img" href="#">
-                                        <img alt="" src="img/block_post_img1.jpg" class="img-rounded" />
-                                    </a>
-                                    <a class="block-post-title" href="#">Time Management for Designers</a>
-                                    <p class="block-post-date">July 25, 2012</p>
-                                    <p class="block-post-content">Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat.</p>
-                                    <a class="block-post-more" href="#">Read more&nbsp;&raquo;</a>
-                                </div>
-                                <div class="span3">
-                                    <a class="block-post-img" href="#">
-                                        <img alt="" src="img/block_post_img2.jpg" class="img-rounded" />
-                                    </a>
-                                    <a class="block-post-title" href="#">Designing for Mobile Devices</a>
-                                    <p class="block-post-date">July 15, 2012</p>
-                                    <p class="block-post-content">Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat.</p>
-                                    <a class="block-post-more" href="#">Read more&nbsp;&raquo;</a>
-                                </div>
-                                <div class="span3">
-                                    <a class="block-post-img" href="#">
-                                        <img alt="" src="img/block_post_img3.jpg" class="img-rounded" />
-                                    </a>
-                                    <a class="block-post-title" href="#">What's New in Silicon Valley</a>
-                                    <p class="block-post-date">July 10, 2012</p>
-                                    <p class="block-post-content">Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat.</p>
-                                    <a class="block-post-more" href="#">Read more&nbsp;&raquo;</a>
-                                </div>
-                                <div class="span3 last">
-                                    <a class="block-post-img" href="#">
-                                        <img alt="" src="img/block_post_img4.jpg" class="img-rounded" />
-                                    </a>
-                                    <a class="block-post-title" href="#">Effective SEO for Site Managers</a>
-                                    <p class="block-post-date">July 8, 2012</p>
-                                    <p class="block-post-content">Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat.</p>
-                                    <a class="block-post-more" href="#">Read more&nbsp;&raquo;</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-<!-- MAIN CONTENT AREA: bizstrap CUSTOM - CLIENTS LOGO BAR -->
-                <div class="main-block clients">
-                    <div class="title-wrapper">
-                        <h2>Clients</h2>
-                    </div>
-                    <div class="row show-grid">
-                        <div class="span12">
-                            <div id="clients" class="row show-grid">
-                                <div class="span2 clear-both hp-wrapper">
-                                    <img alt="" src="img/client1.jpg" />
-                                </div>
-                                <div class="span2 hp-wrapper">
-                                    <img alt="" src="img/client2.jpg" />
-                                </div>
-                                <div class="span2 hp-wrapper">
-                                    <img alt="" src="img/client3.jpg" />
-                                </div>
-                                <div class="span2 hp-wrapper">
-                                    <img alt="" src="img/client4.jpg" />
-                                </div>
-                                <div class="span2 hp-wrapper">
-                                    <img alt="" src="img/client5.jpg" />
-                                </div>
-                                <div class="span2 hp-wrapper">
-                                    <img alt="" src="img/client6.jpg" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <ul class="nav boxer_nav">
+            <li class="active"><a href="#top">Home</a></li>
+            <li><a href="#product2">Interactive Reports</a></li>
+            <li><a href="#product3">Follow our work</a></li>
+          </ul>
+          <ul class="nav boxer_nav pull-right">
+            <li><a href="#"><i class="icon-key"></i> Login</a></li>
+            <li><a href="#"><i class="icon-inbox-box"></i> Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <article class="featured_top">
+      <div class="container">
+        <div class="white_gradient">
+          <div class="row">
+            <div class="span12 align_center">
+              <img src="img/logo.png"></img>
+              <h1 class="boxer_title"> Data analysis and visualizations</h1>
             </div>
-<!-- MAIN CONTENT AREA: bizstrap CUSTOM - RECENT TWEETS BAR -->
-            <div class="recent-tweets">
-                <div class="container">
-                    <div class="row show-grid">
-                        <div class="span12 twitter-wrapper">
-                            <div id="nav_t"></div>
-                            <div class="tweets-slide"><ul class="slides"></ul></div>
-                            <a class="follow_img" href="#"><img alt="" src="img/follow.png" /></a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="body_article">
+      <div class="container">
+        <div class="row">
+          <div class="span7"><img src="img/macbook.png" /></div>
+          <div class="span5">
+            <h2 class="boxer_title">Product Feature #1 Goes Here.</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis distinctio temporibus adipisci qui natus ullam fugiat doloremque quaerat laboriosam quisquam nisi maxime atque eum consectetur quis recusandae cumque reprehenderit accusantium.
+          </div>
+        </div>
+      </div>
+    </article>
+    
+    <article class="section_divider">
+      <div class="container">
+        <div class="next_section" style="width:200px; float:left; border-right: 1px solid #dbe3e5;"><span><a href="#product2" style="color:#888">Next: Product Feature #2</a></span>
+        </div>
+        <i class="icon-arrow-down" style="float:left; margin-left:10px; opacity:0.8"></i>
+      </div>
+    </article>
+    
+    <span id="product2"></span>
+    <article class="body_article">
+      <div class="container">
+        <div class="row">
+          <div class="span5"><h2 class="boxer_title">Interactive Reports</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis distinctio temporibus adipisci qui natus ullam fugiat doloremque quaerat laboriosam quisquam nisi maxime atque eum consectetur quis recusandae cumque reprehenderit accusantium.</div>
+          <div class="span5 offset2"><img src="img/dashboard.png"></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="section_divider">
+      <div class="container">
+        <div class="next_section" style="width:200px; float:left; border-right: 1px solid #dbe3e5;"><span><a href="#product3" style="color:#888">Next: Product Feature #3</a></span>
+        </div>
+        <i class="icon-arrow-down" style="float:left; margin-left:10px; opacity:0.8"></i>
+      </div>
+    </article>
+    
+    <span id="product3"></span>
+    <article class="body_article">
+      <div class="container">
+        <div class="row">
+          <div class="span6"><img src="img/github.png"></div>
+          <div class="span5 offset1"><h2 class="boxer_title">Product Feature #3 Goes Here.</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis distinctio temporibus adipisci qui natus ullam fugiat doloremque quaerat laboriosam quisquam nisi maxime atque eum consectetur quis recusandae cumque reprehenderit accusantium.
+            <!-- AddThis Follow BEGIN -->
+            <div class="addthis_toolbox addthis_32x32_style addthis_default_style">
+            <a class="addthis_button_twitter_follow" addthis:userid="metagrafAB"></a>
             </div>
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5183f27f4b7b479a"></script>
+            <!-- AddThis Follow END -->
+
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="section_divider"></article>
+
+    <div class="boxer_footer">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <ul>
+              <li><a href="mailto:info@metagraf.se">Email</a></li>
+              <li><a href="">Are</a></li>
+              <li><a href="">Just</a></li>
+              <li><a href="">Dummy</a></li>
+              <li><a href="">Links</a></li>
+            </ul>
+            <div class="boxer_copyright">
+              &copy; 2013 metagraf AB
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
