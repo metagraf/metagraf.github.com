@@ -100,7 +100,7 @@ h2.boxer_title {
 	font-size:25px;
 }
 #chart4f3039305896 {
-    height: 300px
+    height: 300px;
 }
 .align_center {
 	text-align: center;
@@ -116,15 +116,26 @@ h2.boxer_title {
 	background-color:#fff;
 	height:80px;
 }
+.boxer_footer a {
+    color:#555;
+    text-decoration:none;
+    text-align:center;
+    
+}
 .boxer_footer ul {
 	margin:0;
+    text-align:center;
+    padding-top:20px;
 }
+
 .boxer_footer ul li {
 	margin-top:20px;
-	float:left;
-	padding-right:20px;
+    padding-right:20px;
 	display:inline;
 	list-style-type:none;
+         float: none;
+     margin-left: auto;
+     margin-right: auto;
 }
 .boxer_copyright {
 	float:right;
