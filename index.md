@@ -10,7 +10,7 @@ lead : >
   <div class="contact"><a href="https://twitter.com/intent/user?screen_name=metagrafAB"><i class="icon-twitter icon-2x"></i></a><a href="mailto:info@metagraf.se"><i class="icon-envelope icon-2x"></i></a><a href="https://github.com/metagraf"><i class="icon-github icon-2x"></i></a></div><img src = "assets/img/logo.png">
 ---
 
-# Innovation och passion
+# Våra tjänster
 
 
 
@@ -24,76 +24,16 @@ Vi är ett företag som är hjälper våra kunder att bearbeta och presentera si
 Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagraf.se.
 
 ---
-### Exempel 1
 
-Nedan är ett exempel på graf.
+### Interaktiv visualisering
 
-<script type='text/javascript' src=http://code.jquery.com/jquery-1.9.1.min.js></script>
-<script type='text/javascript' src=http://code.highcharts.com/highcharts.js></script>
-<script type='text/javascript' src=http://code.highcharts.com/highcharts-more.js></script>
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76766674f' class='rChart highcharts'></div>
+
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7732ffa70' class='rChart highcharts'></div>
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76766674f",
-"width":    600,
-"height":    400,
-"credits": {
- "href": null,
-"text": null 
-},
-"title": {
- "text": null 
-},
-"yAxis": {
- "title": {
- "text": null 
-} 
-},
-"chart": {
- "type": "spline",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76766674f" 
-},
-"series": [
- {
- "data": [
-      0,
-     3,
-     2,
-     4,
-null 
-],
-"dashStyle": "longdash" 
-},
-{
- "data": [
- null,
-     4,
-     1,
-     3,
-     1 
-],
-"dashStyle": "shortdot" 
-} 
-],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76766674f" 
-});
-        });
-    })(jQuery);
-</script>
-
----
-
-### Exempel 2
-
-
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76473031a' class='rChart highcharts'></div>
-<script type='text/javascript'>
-    (function($){
-        $(function () {
-            var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76473031a",
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7732ffa70",
 "width":    600,
 "height":    400,
 "credits": {
@@ -101,7 +41,7 @@ null
 "text": "Källa: Riksdagens API" 
 },
 "title": {
- "text": "Members of the Swedish Parliament, 2013" 
+ "text": "Riksdagsledamöter 2013" 
 },
 "yAxis": [
  {
@@ -119,7 +59,7 @@ null
  "x":     57,
 "y":      1,
 "color": "C",
-"text": "Karin <br> Nilsson",
+"text": "Karin Nilsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0807438844115_80.jpg",
 "valkrets": "Kronobergs län" 
 },
@@ -127,7 +67,7 @@ null
  "x":     37,
 "y":      1,
 "color": "C",
-"text": "Abir <br> Al-Sahlani",
+"text": "Abir Al-Sahlani",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0895706637124_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -135,7 +75,7 @@ null
  "x":     53,
 "y":      1,
 "color": "C",
-"text": "Ola <br> Johansson",
+"text": "Ola Johansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0934639939611_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -143,7 +83,7 @@ null
  "x":     35,
 "y":      1,
 "color": "C",
-"text": "Fredrick <br> Federley",
+"text": "Fredrick Federley",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0868286862422_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -151,7 +91,7 @@ null
  "x":     56,
 "y":      1,
 "color": "C",
-"text": "Per <br> Åsling",
+"text": "Per Åsling",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0679228585116_80.jpg",
 "valkrets": "Jämtlands län" 
 },
@@ -159,7 +99,7 @@ null
  "x":     49,
 "y":      1,
 "color": "C",
-"text": "Annika <br> Qarlsson",
+"text": "Annika Qarlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0962841101917_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -167,7 +107,7 @@ null
  "x":     69,
 "y":      1,
 "color": "C",
-"text": "Per-Ingvar <br> Johnsson",
+"text": "Per-Ingvar Johnsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0256743155204_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -175,7 +115,7 @@ null
  "x":     66,
 "y":      1,
 "color": "C",
-"text": "Staffan <br> Danielsson",
+"text": "Staffan Danielsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0352254228107_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -183,7 +123,7 @@ null
  "x":     48,
 "y":      1,
 "color": "C",
-"text": "Ulrika <br> Carlsson",
+"text": "Ulrika Carlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0836001490919_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -191,7 +131,7 @@ null
  "x":     58,
 "y":      1,
 "color": "C",
-"text": "Kerstin <br> Lundgren",
+"text": "Kerstin Lundgren",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0155487380917_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -199,7 +139,7 @@ null
  "x":     58,
 "y":      1,
 "color": "C",
-"text": "Solveig <br> Zander",
+"text": "Solveig Zander",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0196077326617_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -207,7 +147,7 @@ null
  "x":     47,
 "y":      1,
 "color": "C",
-"text": "Per <br> Lodenius",
+"text": "Per Lodenius",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0363721826713_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -215,7 +155,7 @@ null
  "x":     46,
 "y":      1,
 "color": "C",
-"text": "Roger <br> Tiefensee",
+"text": "Roger Tiefensee",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0959102638818_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -223,7 +163,7 @@ null
  "x":     44,
 "y":      1,
 "color": "C",
-"text": "Erik <br> A Eriksson",
+"text": "Erik A Eriksson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0391973624515_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -231,7 +171,7 @@ null
  "x":     41,
 "y":      1,
 "color": "C",
-"text": "Helena <br> Lindahl",
+"text": "Helena Lindahl",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/084624777218_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -239,7 +179,7 @@ null
  "x":     39,
 "y":      1,
 "color": "C",
-"text": "Johan <br> Linander",
+"text": "Johan Linander",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0324815829026_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -247,7 +187,7 @@ null
  "x":     30,
 "y":      1,
 "color": "C",
-"text": "Rickard <br> Nordin",
+"text": "Rickard Nordin",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0132818093422_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -255,7 +195,7 @@ null
  "x":     61,
 "y":      1,
 "color": "C",
-"text": "Anders <br> Ahlgren",
+"text": "Anders Ahlgren",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0920966427818_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -263,7 +203,7 @@ null
  "x":     26,
 "y":      1,
 "color": "C",
-"text": "Emil <br> Källström",
+"text": "Emil Källström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0313210809828_80.jpg",
 "valkrets": "Västernorrlands län" 
 },
@@ -271,7 +211,7 @@ null
  "x":     59,
 "y":      1,
 "color": "C",
-"text": "Göran <br> Lindell",
+"text": "Göran Lindell",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0397377293714_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -279,7 +219,7 @@ null
  "x":     55,
 "y":      1,
 "color": "C",
-"text": "Åsa <br> Torstensson",
+"text": "Åsa Torstensson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0183788551910_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -287,7 +227,7 @@ null
  "x":     55,
 "y":      1,
 "color": "C",
-"text": "Anders <br> Åkesson",
+"text": "Anders Åkesson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0677738818613_80.jpg",
 "valkrets": "Kalmar län" 
 },
@@ -295,7 +235,7 @@ null
  "x":     52,
 "y":      1,
 "color": "C",
-"text": "Anders <br> W Jonsson",
+"text": "Anders W Jonsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0229760896014_80.jpg",
 "valkrets": "Gävleborgs län" 
 } 
@@ -308,7 +248,7 @@ null
  "x":     37,
 "y":      1,
 "color": "FP",
-"text": "Nina <br> Larsson",
+"text": "Nina Larsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0125036219125_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -316,7 +256,7 @@ null
  "x":     36,
 "y":      1,
 "color": "FP",
-"text": "Karin <br> Granbom Ellison",
+"text": "Karin Granbom Ellison",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0461756329828_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -324,7 +264,7 @@ null
  "x":     36,
 "y":      1,
 "color": "FP",
-"text": "Gulan <br> Avci",
+"text": "Gulan Avci",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0800956862429_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -332,7 +272,7 @@ null
  "x":     35,
 "y":      1,
 "color": "FP",
-"text": "Roger <br> Haddad",
+"text": "Roger Haddad",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0308306375022_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -340,7 +280,7 @@ null
  "x":     49,
 "y":      1,
 "color": "FP",
-"text": "Allan <br> Widman",
+"text": "Allan Widman",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0446541913415_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -348,7 +288,7 @@ null
  "x":     80,
 "y":      1,
 "color": "FP",
-"text": "Barbro <br> Westerholm",
+"text": "Barbro Westerholm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0363228965800_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -356,7 +296,7 @@ null
  "x":     69,
 "y":      1,
 "color": "FP",
-"text": "Jan <br> Ertsborn",
+"text": "Jan Ertsborn",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/09812885803_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -364,7 +304,7 @@ null
  "x":     68,
 "y":      1,
 "color": "FP",
-"text": "Ulf <br> Nilsson",
+"text": "Ulf Nilsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0542573140300_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -372,7 +312,7 @@ null
  "x":     67,
 "y":      1,
 "color": "FP",
-"text": "Carl B <br> Hamilton",
+"text": "Carl B Hamilton",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0477013214601_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -380,7 +320,7 @@ null
  "x":     67,
 "y":      1,
 "color": "FP",
-"text": "Gunnar <br> Andrén",
+"text": "Gunnar Andrén",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0526693079901_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -388,7 +328,7 @@ null
  "x":     65,
 "y":      1,
 "color": "FP",
-"text": "Anita <br> Brodén",
+"text": "Anita Brodén",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0977824845202_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -396,7 +336,7 @@ null
  "x":     60,
 "y":      1,
 "color": "FP",
-"text": "Christer <br> Winbäck",
+"text": "Christer Winbäck",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0455256796113_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -404,7 +344,7 @@ null
  "x":     57,
 "y":      1,
 "color": "FP",
-"text": "Maria <br> Lundqvist-Brömster",
+"text": "Maria Lundqvist-Brömster",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0240128497814_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -412,7 +352,7 @@ null
  "x":     60,
 "y":      1,
 "color": "FP",
-"text": "Lars <br> Tysklind",
+"text": "Lars Tysklind",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0535526562910_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -420,7 +360,7 @@ null
  "x":     58,
 "y":      1,
 "color": "FP",
-"text": "Ismail <br> Kamil",
+"text": "Ismail Kamil",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0454447556218_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -428,7 +368,7 @@ null
  "x":     51,
 "y":      1,
 "color": "FP",
-"text": "Stefan <br> Käll",
+"text": "Stefan Käll",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0668060748617_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -436,7 +376,7 @@ null
  "x":     47,
 "y":      1,
 "color": "FP",
-"text": "Tina <br> Acketoft",
+"text": "Tina Acketoft",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0582811195313_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -444,7 +384,7 @@ null
  "x":     45,
 "y":      1,
 "color": "FP",
-"text": "Johan <br> Pehrson",
+"text": "Johan Pehrson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0224712677012_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -452,7 +392,7 @@ null
  "x":     45,
 "y":      1,
 "color": "FP",
-"text": "Christer <br> Nylander",
+"text": "Christer Nylander",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0731442709013_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -460,7 +400,7 @@ null
  "x":     43,
 "y":      1,
 "color": "FP",
-"text": "Emma <br> Carlsson Löfdahl",
+"text": "Emma Carlsson Löfdahl",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0737073162411_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -468,7 +408,7 @@ null
  "x":     54,
 "y":      1,
 "color": "FP",
-"text": "Anna <br> Steele",
+"text": "Anna Steele",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0437269990517_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -476,7 +416,7 @@ null
  "x":     52,
 "y":      1,
 "color": "FP",
-"text": "Nina <br> Lundström",
+"text": "Nina Lundström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0541320528015_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -484,7 +424,7 @@ null
  "x":     50,
 "y":      1,
 "color": "FP",
-"text": "Hans <br> Backman",
+"text": "Hans Backman",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0970400972210_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -492,7 +432,7 @@ null
  "x":     50,
 "y":      1,
 "color": "FP",
-"text": "Eva <br> Flyborg",
+"text": "Eva Flyborg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0401150407611_80.jpg",
 "valkrets": "Göteborgs kommun" 
 } 
@@ -505,7 +445,7 @@ null
  "x":     49,
 "y":      1,
 "color": "KD",
-"text": "Anders <br> Sellström",
+"text": "Anders Sellström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0494431859015_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -513,7 +453,7 @@ null
  "x":     62,
 "y":      1,
 "color": "KD",
-"text": "Roland <br> Utbult",
+"text": "Roland Utbult",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0237055280513_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -521,7 +461,7 @@ null
  "x":     62,
 "y":      1,
 "color": "KD",
-"text": "Lars <br> Gustafsson",
+"text": "Lars Gustafsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0534056896314_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -529,7 +469,7 @@ null
  "x":     61,
 "y":      1,
 "color": "KD",
-"text": "Lars-Axel <br> Nordell",
+"text": "Lars-Axel Nordell",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0125056691517_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -537,7 +477,7 @@ null
  "x":     36,
 "y":      1,
 "color": "KD",
-"text": "Emma <br> Henriksson",
+"text": "Emma Henriksson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0788526088220_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -545,7 +485,7 @@ null
  "x":     32,
 "y":      1,
 "color": "KD",
-"text": "Caroline <br> Szyber",
+"text": "Caroline Szyber",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0666958447826_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -553,7 +493,7 @@ null
  "x":     49,
 "y":      1,
 "color": "KD",
-"text": "Penilla <br> Gunther",
+"text": "Penilla Gunther",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0925451929216_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -561,7 +501,7 @@ null
  "x":     48,
 "y":      1,
 "color": "KD",
-"text": "Irene <br> Oskarsson",
+"text": "Irene Oskarsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0743081365718_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -569,7 +509,7 @@ null
  "x":     66,
 "y":      1,
 "color": "KD",
-"text": "Mats <br> Odell",
+"text": "Mats Odell",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0700424025906_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -577,7 +517,7 @@ null
  "x":     60,
 "y":      1,
 "color": "KD",
-"text": "Annelie <br> Enochson",
+"text": "Annelie Enochson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/045666679112_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -585,7 +525,7 @@ null
  "x":     57,
 "y":      1,
 "color": "KD",
-"text": "Tuve <br> Skånberg",
+"text": "Tuve Skånberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0161597857912_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -593,7 +533,7 @@ null
  "x":     58,
 "y":      1,
 "color": "KD",
-"text": "Anders <br> Andersson",
+"text": "Anders Andersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0777657837318_80.jpg",
 "valkrets": "Kalmar län" 
 },
@@ -601,7 +541,7 @@ null
  "x":     49,
 "y":      1,
 "color": "KD",
-"text": "Robert <br> Halef",
+"text": "Robert Halef",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0285631067215_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -609,7 +549,7 @@ null
  "x":     46,
 "y":      1,
 "color": "KD",
-"text": "Mikael <br> Oscarsson",
+"text": "Mikael Oscarsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0973782197017_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -617,7 +557,7 @@ null
  "x":     55,
 "y":      1,
 "color": "KD",
-"text": "Magnus <br> Sjödahl",
+"text": "Magnus Sjödahl",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0534948028412_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -625,7 +565,7 @@ null
  "x":     26,
 "y":      1,
 "color": "KD",
-"text": "Andreas <br> Carlson",
+"text": "Andreas Carlson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0542160909628_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -633,7 +573,7 @@ null
  "x":     54,
 "y":      1,
 "color": "KD",
-"text": "Désirée <br> Pethrus",
+"text": "Désirée Pethrus",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0860429409414_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -641,7 +581,7 @@ null
  "x":     52,
 "y":      1,
 "color": "KD",
-"text": "Annika <br> Eclund",
+"text": "Annika Eclund",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0480339311713_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -649,7 +589,7 @@ null
  "x":     62,
 "y":      1,
 "color": "KD",
-"text": "Yvonne <br> Andersson",
+"text": "Yvonne Andersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0223175563813_80.jpg",
 "valkrets": "Östergötlands län" 
 } 
@@ -662,7 +602,7 @@ null
  "x":     43,
 "y":      1,
 "color": "M",
-"text": "Cecilie <br> Tenfjord-Toftby",
+"text": "Cecilie Tenfjord-Toftby",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/010343930918_80.jpg",
 "valkrets": "Västra Götalands läns södra" 
 },
@@ -670,7 +610,7 @@ null
  "x":     26,
 "y":      1,
 "color": "M",
-"text": "Hanif <br> Bali",
+"text": "Hanif Bali",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0166790812128_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -678,7 +618,7 @@ null
  "x":     57,
 "y":      1,
 "color": "M",
-"text": "Anne Marie <br> Brodén",
+"text": "Anne Marie Brodén",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0181478122414_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -686,7 +626,7 @@ null
  "x":     62,
 "y":      1,
 "color": "M",
-"text": "Eva <br> Bengtson Skogsberg",
+"text": "Eva Bengtson Skogsberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0472335069513_80.jpg",
 "valkrets": "Kalmar län" 
 },
@@ -694,7 +634,7 @@ null
  "x":     62,
 "y":      1,
 "color": "M",
-"text": "Marietta <br> de Pourbaix-Lundin",
+"text": "Marietta de Pourbaix-Lundin",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0125165702713_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -702,7 +642,7 @@ null
  "x":     62,
 "y":      1,
 "color": "M",
-"text": "Mats <br> Johansson",
+"text": "Mats Johansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0444616389415_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -710,7 +650,7 @@ null
  "x":     30,
 "y":      1,
 "color": "M",
-"text": "Kajsa <br> Lunderquist",
+"text": "Kajsa Lunderquist",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0979018047922_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -718,7 +658,7 @@ null
  "x":     59,
 "y":      1,
 "color": "M",
-"text": "Thomas <br> Finnborg",
+"text": "Thomas Finnborg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0861447317415_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -726,7 +666,7 @@ null
  "x":     40,
 "y":      1,
 "color": "M",
-"text": "Jonas <br> Jacobsson Gjörtler",
+"text": "Jonas Jacobsson Gjörtler",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0495314169413_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -734,7 +674,7 @@ null
  "x":     36,
 "y":      1,
 "color": "M",
-"text": "Linda <br> Wemmert",
+"text": "Linda Wemmert",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/03856618629_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -742,7 +682,7 @@ null
  "x":     67,
 "y":      1,
 "color": "M",
-"text": "Göran <br> Montan",
+"text": "Göran Montan",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0248883870202_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -750,7 +690,7 @@ null
  "x":     63,
 "y":      1,
 "color": "M",
-"text": "Katarina <br> Brännström",
+"text": "Katarina Brännström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0128805841317_80.jpg",
 "valkrets": "Kronobergs län" 
 },
@@ -758,7 +698,7 @@ null
  "x":     28,
 "y":      1,
 "color": "M",
-"text": "Amir <br> Adan",
+"text": "Amir Adan",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/072019517020_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -766,7 +706,7 @@ null
  "x":     41,
 "y":      1,
 "color": "M",
-"text": "Jessika <br> Vilhelmsson",
+"text": "Jessika Vilhelmsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0718034011110_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -774,7 +714,7 @@ null
  "x":     55,
 "y":      1,
 "color": "M",
-"text": "Peter <br> Jutterström",
+"text": "Peter Jutterström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0231938174010_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -782,7 +722,7 @@ null
  "x":     58,
 "y":      1,
 "color": "M",
-"text": "Christer <br> Akej",
+"text": "Christer Akej",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0538777624511_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -790,7 +730,7 @@ null
  "x":     32,
 "y":      1,
 "color": "M",
-"text": "Jenny <br> Petersson",
+"text": "Jenny Petersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0176437434123_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -798,7 +738,7 @@ null
  "x":     56,
 "y":      1,
 "color": "M",
-"text": "Michael <br> Svensson",
+"text": "Michael Svensson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0381918573217_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -806,7 +746,7 @@ null
  "x":     37,
 "y":      1,
 "color": "M",
-"text": "Edward <br> Riedl",
+"text": "Edward Riedl",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0273506284025_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -814,7 +754,7 @@ null
  "x":     49,
 "y":      1,
 "color": "M",
-"text": "Elisabeth <br> Björnsdotter Rahm",
+"text": "Elisabeth Björnsdotter Rahm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0671241874717_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -822,7 +762,7 @@ null
  "x":     37,
 "y":      1,
 "color": "M",
-"text": "Christian <br> Holm",
+"text": "Christian Holm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0485476395125_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -830,7 +770,7 @@ null
  "x":     37,
 "y":      1,
 "color": "M",
-"text": "Sofia <br> Arkelsten",
+"text": "Sofia Arkelsten",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0802826314426_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -838,7 +778,7 @@ null
  "x":     36,
 "y":      1,
 "color": "M",
-"text": "Lars <br> Hjälmered",
+"text": "Lars Hjälmered",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0980316377627_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -846,7 +786,7 @@ null
  "x":     36,
 "y":      1,
 "color": "M",
-"text": "Karl <br> Sigfrid",
+"text": "Karl Sigfrid",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0469626830920_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -854,7 +794,7 @@ null
  "x":     35,
 "y":      1,
 "color": "M",
-"text": "Eliza <br> Roszkowska Öberg",
+"text": "Eliza Roszkowska Öberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0844246115721_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -862,7 +802,7 @@ null
  "x":     35,
 "y":      1,
 "color": "M",
-"text": "Åsa <br> Coenraads",
+"text": "Åsa Coenraads",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0564126739422_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -870,7 +810,7 @@ null
  "x":     34,
 "y":      1,
 "color": "M",
-"text": "Johan <br> Forssell",
+"text": "Johan Forssell",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0126797549328_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -878,7 +818,7 @@ null
  "x":     33,
 "y":      1,
 "color": "M",
-"text": "Oskar <br> Öholm",
+"text": "Oskar Öholm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/084677425329_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -886,7 +826,7 @@ null
  "x":     32,
 "y":      1,
 "color": "M",
-"text": "Fredrik <br> Schulte",
+"text": "Fredrik Schulte",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0210198640127_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -894,7 +834,7 @@ null
  "x":     50,
 "y":      1,
 "color": "M",
-"text": "Maria <br> Abrahamsson",
+"text": "Maria Abrahamsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0695090885212_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -902,7 +842,7 @@ null
  "x":     26,
 "y":      1,
 "color": "M",
-"text": "Jessica <br> Rosencrantz",
+"text": "Jessica Rosencrantz",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0992420223820_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -910,7 +850,7 @@ null
  "x":     57,
 "y":      1,
 "color": "M",
-"text": "Lars-Arne <br> Staxäng",
+"text": "Lars-Arne Staxäng",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0718937995813_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -918,7 +858,7 @@ null
  "x":     56,
 "y":      1,
 "color": "M",
-"text": "Ulf <br> Berg",
+"text": "Ulf Berg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0193378456716_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -926,7 +866,7 @@ null
  "x":     44,
 "y":      1,
 "color": "M",
-"text": "Camilla <br> Waltersson Grönvall",
+"text": "Camilla Waltersson Grönvall",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781623040415_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -934,7 +874,7 @@ null
  "x":     51,
 "y":      1,
 "color": "M",
-"text": "Cecilia <br> Magnusson",
+"text": "Cecilia Magnusson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0522460069116_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -942,7 +882,7 @@ null
  "x":     50,
 "y":      1,
 "color": "M",
-"text": "Krister <br> Hammarbergh",
+"text": "Krister Hammarbergh",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0889860537413_80.jpg",
 "valkrets": "Norrbottens län" 
 },
@@ -950,7 +890,7 @@ null
  "x":     48,
 "y":      1,
 "color": "M",
-"text": "Hans <br> Wallmark",
+"text": "Hans Wallmark",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0980681611418_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -958,7 +898,7 @@ null
  "x":     37,
 "y":      1,
 "color": "M",
-"text": "Olof <br> Lavesson",
+"text": "Olof Lavesson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0448155122323_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -966,7 +906,7 @@ null
  "x":     37,
 "y":      1,
 "color": "M",
-"text": "Anders <br> Hansson",
+"text": "Anders Hansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0843345349823_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -974,7 +914,7 @@ null
  "x":     37,
 "y":      1,
 "color": "M",
-"text": "Henrik <br> von Sydow",
+"text": "Henrik von Sydow",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0292756653724_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -982,7 +922,7 @@ null
  "x":     72,
 "y":      1,
 "color": "M",
-"text": "Rune <br> Wikström",
+"text": "Rune Wikström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0743231788202_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -990,7 +930,7 @@ null
  "x":     70,
 "y":      1,
 "color": "M",
-"text": "Staffan <br> Anger",
+"text": "Staffan Anger",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0916272051100_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -998,7 +938,7 @@ null
  "x":     68,
 "y":      1,
 "color": "M",
-"text": "Peder <br> Wachtmeister",
+"text": "Peder Wachtmeister",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0661283223209_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -1006,7 +946,7 @@ null
  "x":     66,
 "y":      1,
 "color": "M",
-"text": "Cristina <br> Husmark Pehrsson",
+"text": "Cristina Husmark Pehrsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0652944607906_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -1014,7 +954,7 @@ null
  "x":     65,
 "y":      1,
 "color": "M",
-"text": "Margareta B <br> Kjellin",
+"text": "Margareta B Kjellin",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0196024739401_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -1022,7 +962,7 @@ null
  "x":     65,
 "y":      1,
 "color": "M",
-"text": "Eva <br> Lohman",
+"text": "Eva Lohman",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0150664940102_80.jpg",
 "valkrets": "Västernorrlands län" 
 },
@@ -1030,7 +970,7 @@ null
  "x":     64,
 "y":      1,
 "color": "M",
-"text": "Gustav <br> Nilsson",
+"text": "Gustav Nilsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0568055205114_80.jpg",
 "valkrets": "Blekinge län" 
 },
@@ -1038,7 +978,7 @@ null
  "x":     64,
 "y":      1,
 "color": "M",
-"text": "Lars <br> Elinderson",
+"text": "Lars Elinderson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0905755961314_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -1046,7 +986,7 @@ null
  "x":     57,
 "y":      1,
 "color": "M",
-"text": "Edip <br> Noyan",
+"text": "Edip Noyan",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0178667655211_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1054,7 +994,7 @@ null
  "x":     55,
 "y":      1,
 "color": "M",
-"text": "Per <br> Bill",
+"text": "Per Bill",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0658668232410_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -1062,7 +1002,7 @@ null
  "x":     57,
 "y":      1,
 "color": "M",
-"text": "Finn <br> Bengtsson",
+"text": "Finn Bengtsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0721657655513_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -1070,7 +1010,7 @@ null
  "x":     57,
 "y":      1,
 "color": "M",
-"text": "Lena <br> Asplund",
+"text": "Lena Asplund",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/088028607414_80.jpg",
 "valkrets": "Västernorrlands län" 
 },
@@ -1078,7 +1018,7 @@ null
  "x":     57,
 "y":      1,
 "color": "M",
-"text": "Gunilla <br> Nordgren",
+"text": "Gunilla Nordgren",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0192918410514_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -1086,7 +1026,7 @@ null
  "x":     55,
 "y":      1,
 "color": "M",
-"text": "Anti <br> Avsan",
+"text": "Anti Avsan",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0338458649710_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1094,7 +1034,7 @@ null
  "x":     48,
 "y":      1,
 "color": "M",
-"text": "Stefan <br> Caplan",
+"text": "Stefan Caplan",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0409551181119_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -1102,7 +1042,7 @@ null
  "x":     62,
 "y":      1,
 "color": "M",
-"text": "Bengt-Anders <br> Johansson",
+"text": "Bengt-Anders Johansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0463955388312_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -1110,7 +1050,7 @@ null
  "x":     60,
 "y":      1,
 "color": "M",
-"text": "Maria <br> Plass",
+"text": "Maria Plass",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0791786201912_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -1118,7 +1058,7 @@ null
  "x":     39,
 "y":      1,
 "color": "M",
-"text": "Gustav <br> Blix",
+"text": "Gustav Blix",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0741005094627_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -1126,7 +1066,7 @@ null
  "x":     35,
 "y":      1,
 "color": "M",
-"text": "Tomas <br> Tobé",
+"text": "Tomas Tobé",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/069436402021_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -1134,7 +1074,7 @@ null
  "x":     41,
 "y":      1,
 "color": "M",
-"text": "Metin <br> Ataseven",
+"text": "Metin Ataseven",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0135054091316_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1142,7 +1082,7 @@ null
  "x":     42,
 "y":      1,
 "color": "M",
-"text": "Sedat <br> Dogru",
+"text": "Sedat Dogru",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0424684306815_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1150,7 +1090,7 @@ null
  "x":     31,
 "y":      1,
 "color": "M",
-"text": "Bino <br> Drummond",
+"text": "Bino Drummond",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0560258077929_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1158,7 +1098,7 @@ null
  "x":     62,
 "y":      1,
 "color": "M",
-"text": "Björn <br> Samuelson",
+"text": "Björn Samuelson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0483306984615_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1166,7 +1106,7 @@ null
  "x":     48,
 "y":      1,
 "color": "M",
-"text": "Sten <br> Bergheden",
+"text": "Sten Bergheden",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0828721176319_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -1174,7 +1114,7 @@ null
  "x":     47,
 "y":      1,
 "color": "M",
-"text": "Ann-Charlotte <br> Hammar Johnsson",
+"text": "Ann-Charlotte Hammar Johnsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0810201628512_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -1182,7 +1122,7 @@ null
  "x":     47,
 "y":      1,
 "color": "M",
-"text": "Anette <br> Åkesson",
+"text": "Anette Åkesson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0198031297912_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -1190,7 +1130,7 @@ null
  "x":     46,
 "y":      1,
 "color": "M",
-"text": "Annicka <br> Engblom",
+"text": "Annicka Engblom",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0590042760718_80.jpg",
 "valkrets": "Blekinge län" 
 },
@@ -1198,7 +1138,7 @@ null
  "x":     46,
 "y":      1,
 "color": "M",
-"text": "Gunnar <br> Axén",
+"text": "Gunnar Axén",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0782242286018_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -1206,7 +1146,7 @@ null
  "x":     46,
 "y":      1,
 "color": "M",
-"text": "Elisabeth <br> Svantesson",
+"text": "Elisabeth Svantesson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0899112324519_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -1214,7 +1154,7 @@ null
  "x":     45,
 "y":      1,
 "color": "M",
-"text": "Henrik <br> Ripa",
+"text": "Henrik Ripa",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0285352171912_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -1222,7 +1162,7 @@ null
  "x":     45,
 "y":      1,
 "color": "M",
-"text": "Boriana <br> Åberg",
+"text": "Boriana Åberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0105632258713_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -1230,7 +1170,7 @@ null
  "x":     43,
 "y":      1,
 "color": "M",
-"text": "Anna <br> Kinberg Batra",
+"text": "Anna Kinberg Batra",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/012053331219_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1238,7 +1178,7 @@ null
  "x":     43,
 "y":      1,
 "color": "M",
-"text": "Patrick <br> Reslow",
+"text": "Patrick Reslow",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0545733815610_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -1246,7 +1186,7 @@ null
  "x":     43,
 "y":      1,
 "color": "M",
-"text": "Jan R <br> Andersson",
+"text": "Jan R Andersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0529103571012_80.jpg",
 "valkrets": "Kalmar län" 
 },
@@ -1254,7 +1194,7 @@ null
  "x":     42,
 "y":      1,
 "color": "M",
-"text": "Jessica <br> Polfjärd",
+"text": "Jessica Polfjärd",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0630824497414_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -1262,7 +1202,7 @@ null
  "x":     40,
 "y":      1,
 "color": "M",
-"text": "Ulrika <br> Karlsson",
+"text": "Ulrika Karlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0397924710612_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -1270,7 +1210,7 @@ null
  "x":     40,
 "y":      1,
 "color": "M",
-"text": "Andreas <br> Norlén",
+"text": "Andreas Norlén",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0585684563812_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -1278,7 +1218,7 @@ null
  "x":     40,
 "y":      1,
 "color": "M",
-"text": "Cecilia <br> Widegren",
+"text": "Cecilia Widegren",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0893004490313_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -1286,7 +1226,7 @@ null
  "x":     39,
 "y":      1,
 "color": "M",
-"text": "Gustaf <br> Hoffstedt",
+"text": "Gustaf Hoffstedt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0316345926026_80.jpg",
 "valkrets": "Gotlands län" 
 },
@@ -1294,7 +1234,7 @@ null
  "x":     56,
 "y":      1,
 "color": "M",
-"text": "Susanna <br> Haby",
+"text": "Susanna Haby",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/08188046917_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -1302,7 +1242,7 @@ null
  "x":     47,
 "y":      1,
 "color": "M",
-"text": "Abdirizak <br> Waberi",
+"text": "Abdirizak Waberi",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/083921164513_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -1310,7 +1250,7 @@ null
  "x":     55,
 "y":      1,
 "color": "M",
-"text": "Ellen <br> Juntti",
+"text": "Ellen Juntti",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0144048894712_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -1318,7 +1258,7 @@ null
  "x":     50,
 "y":      1,
 "color": "M",
-"text": "Ulrik <br> Nilsson",
+"text": "Ulrik Nilsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0410640630411_80.jpg",
 "valkrets": "Västra Götalands läns södra" 
 },
@@ -1326,7 +1266,7 @@ null
  "x":     53,
 "y":      1,
 "color": "M",
-"text": "Lotta <br> Olsson",
+"text": "Lotta Olsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/066769783310_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -1334,7 +1274,7 @@ null
  "x":     27,
 "y":      1,
 "color": "M",
-"text": "Carl-Oskar <br> Bohlin",
+"text": "Carl-Oskar Bohlin",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0108109641223_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -1342,7 +1282,7 @@ null
  "x":     66,
 "y":      1,
 "color": "M",
-"text": "Ann-Britt <br> Åsebol",
+"text": "Ann-Britt Åsebol",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0204494765606_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -1350,7 +1290,7 @@ null
  "x":     46,
 "y":      1,
 "color": "M",
-"text": "Lars <br> Beckman",
+"text": "Lars Beckman",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0588282566419_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -1358,7 +1298,7 @@ null
  "x":     52,
 "y":      1,
 "color": "M",
-"text": "Saila <br> Quicklund",
+"text": "Saila Quicklund",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0519740099915_80.jpg",
 "valkrets": "Jämtlands län" 
 },
@@ -1366,7 +1306,7 @@ null
  "x":     21,
 "y":      1,
 "color": "M",
-"text": "Anton <br> Abele",
+"text": "Anton Abele",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0538982776628_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -1374,7 +1314,7 @@ null
  "x":     51,
 "y":      1,
 "color": "M",
-"text": "Cecilia <br> Brinck",
+"text": "Cecilia Brinck",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0590020362617_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -1382,7 +1322,7 @@ null
  "x":     34,
 "y":      1,
 "color": "M",
-"text": "Marta <br> Obminska",
+"text": "Marta Obminska",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0732677378827_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -1390,7 +1330,7 @@ null
  "x":     27,
 "y":      1,
 "color": "M",
-"text": "Nils <br> Brown",
+"text": "Nils Brown",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0795530089824_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -1398,7 +1338,7 @@ null
  "x":     28,
 "y":      1,
 "color": "M",
-"text": "Johan <br> Hultberg",
+"text": "Johan Hultberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/069309987221_80.jpg",
 "valkrets": "Kronobergs län" 
 },
@@ -1406,7 +1346,7 @@ null
  "x":     47,
 "y":      1,
 "color": "M",
-"text": "Jörgen <br> Andersson",
+"text": "Jörgen Andersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0859721748313_80.jpg",
 "valkrets": "Kalmar län" 
 },
@@ -1414,7 +1354,7 @@ null
  "x":     55,
 "y":      1,
 "color": "M",
-"text": "Betty <br> Malmberg",
+"text": "Betty Malmberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0547818628111_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -1422,7 +1362,7 @@ null
  "x":     55,
 "y":      1,
 "color": "M",
-"text": "Lotta <br> Finstorp",
+"text": "Lotta Finstorp",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0750518623913_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -1430,7 +1370,7 @@ null
  "x":     54,
 "y":      1,
 "color": "M",
-"text": "Ewa <br> Thalén Finné",
+"text": "Ewa Thalén Finné",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0714579775816_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -1438,7 +1378,7 @@ null
  "x":     54,
 "y":      1,
 "color": "M",
-"text": "Margareta <br> Cederfelt",
+"text": "Margareta Cederfelt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0970259744617_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -1446,7 +1386,7 @@ null
  "x":     53,
 "y":      1,
 "color": "M",
-"text": "Göran <br> Pettersson",
+"text": "Göran Pettersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0558039843819_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1454,7 +1394,7 @@ null
  "x":     53,
 "y":      1,
 "color": "M",
-"text": "Jan-Evert <br> Rådhström",
+"text": "Jan-Evert Rådhström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0946889218011_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -1462,7 +1402,7 @@ null
  "x":     52,
 "y":      1,
 "color": "M",
-"text": "Jan <br> Ericson",
+"text": "Jan Ericson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0940980416614_80.jpg",
 "valkrets": "Västra Götalands läns södra" 
 },
@@ -1470,7 +1410,7 @@ null
  "x":     52,
 "y":      1,
 "color": "M",
-"text": "Pia <br> Hallström",
+"text": "Pia Hallström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0190560012714_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -1478,7 +1418,7 @@ null
  "x":     52,
 "y":      1,
 "color": "M",
-"text": "Hans <br> Rothenberg",
+"text": "Hans Rothenberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0409540163215_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -1486,7 +1426,7 @@ null
  "x":     51,
 "y":      1,
 "color": "M",
-"text": "Isabella <br> Jernbeck",
+"text": "Isabella Jernbeck",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0219220227418_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1494,7 +1434,7 @@ null
  "x":     51,
 "y":      1,
 "color": "M",
-"text": "Helena <br> Bouveng",
+"text": "Helena Bouveng",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0729710260118_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -1502,7 +1442,7 @@ null
  "x":     58,
 "y":      1,
 "color": "M",
-"text": "Mikael <br> Cederbratt",
+"text": "Mikael Cederbratt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0105797223918_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -1510,7 +1450,7 @@ null
  "x":     44,
 "y":      1,
 "color": "M",
-"text": "Johan <br> Johansson",
+"text": "Johan Johansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0957513768616_80.jpg",
 "valkrets": "Norrbottens län" 
 } 
@@ -1523,7 +1463,7 @@ null
  "x":     57,
 "y":      1,
 "color": "MP",
-"text": "Peter <br> Rådberg",
+"text": "Peter Rådberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781648625615_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -1531,7 +1471,7 @@ null
  "x":     62,
 "y":      1,
 "color": "MP",
-"text": "Jan <br> Lindholm",
+"text": "Jan Lindholm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0641486384014_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -1539,7 +1479,7 @@ null
  "x":     56,
 "y":      1,
 "color": "MP",
-"text": "Agneta <br> Börjesson",
+"text": "Agneta Börjesson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0139948283718_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -1547,7 +1487,7 @@ null
  "x":     35,
 "y":      1,
 "color": "MP",
-"text": "Magnus <br> Ehrencrona",
+"text": "Magnus Ehrencrona",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0266627143525_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -1555,7 +1495,7 @@ null
  "x":     31,
 "y":      1,
 "color": "MP",
-"text": "Helena <br> Leander",
+"text": "Helena Leander",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0872978640827_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -1563,7 +1503,7 @@ null
  "x":     30,
 "y":      1,
 "color": "MP",
-"text": "Gustav <br> Fridolin",
+"text": "Gustav Fridolin",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0238588409223_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -1571,7 +1511,7 @@ null
  "x":     44,
 "y":      1,
 "color": "MP",
-"text": "Ulf <br> Holm",
+"text": "Ulf Holm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0584183916016_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -1579,7 +1519,7 @@ null
  "x":     59,
 "y":      1,
 "color": "MP",
-"text": "Mats <br> Pertoft",
+"text": "Mats Pertoft",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0488357052317_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1587,7 +1527,7 @@ null
  "x":     42,
 "y":      1,
 "color": "MP",
-"text": "Per <br> Bolund",
+"text": "Per Bolund",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0956444284814_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -1595,7 +1535,7 @@ null
  "x":     42,
 "y":      1,
 "color": "MP",
-"text": "Mehmet <br> Kaplan",
+"text": "Mehmet Kaplan",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0116084827614_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -1603,7 +1543,7 @@ null
  "x":     41,
 "y":      1,
 "color": "MP",
-"text": "Åsa <br> Romson",
+"text": "Åsa Romson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0951854268017_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -1611,7 +1551,7 @@ null
  "x":     58,
 "y":      1,
 "color": "MP",
-"text": "Valter <br> Mutt",
+"text": "Valter Mutt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0280087199210_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -1619,7 +1559,7 @@ null
  "x":     31,
 "y":      1,
 "color": "MP",
-"text": "Lise <br> Nordin",
+"text": "Lise Nordin",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0828198456420_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -1627,7 +1567,7 @@ null
  "x":     55,
 "y":      1,
 "color": "MP",
-"text": "Stina <br> Bergström",
+"text": "Stina Bergström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0401968752713_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -1635,7 +1575,7 @@ null
  "x":     46,
 "y":      1,
 "color": "MP",
-"text": "Jonas <br> Eriksson",
+"text": "Jonas Eriksson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0157062733618_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -1643,7 +1583,7 @@ null
  "x":     68,
 "y":      1,
 "color": "MP",
-"text": "Agneta <br> Luttropp",
+"text": "Agneta Luttropp",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0919433006307_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -1651,7 +1591,7 @@ null
  "x":     51,
 "y":      1,
 "color": "MP",
-"text": "Annika <br> Lillemets",
+"text": "Annika Lillemets",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0172220256016_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -1659,7 +1599,7 @@ null
  "x":     63,
 "y":      1,
 "color": "MP",
-"text": "Kew <br> Nordqvist",
+"text": "Kew Nordqvist",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0427695165918_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -1667,7 +1607,7 @@ null
  "x":     28,
 "y":      1,
 "color": "MP",
-"text": "Maria <br> Ferm",
+"text": "Maria Ferm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0462699892622_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -1675,7 +1615,7 @@ null
  "x":     55,
 "y":      1,
 "color": "MP",
-"text": "Bodil <br> Ceballos",
+"text": "Bodil Ceballos",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0637028706011_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -1683,7 +1623,7 @@ null
  "x":     55,
 "y":      1,
 "color": "MP",
-"text": "Peter <br> Eriksson",
+"text": "Peter Eriksson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0447198048312_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1691,7 +1631,7 @@ null
  "x":     54,
 "y":      1,
 "color": "MP",
-"text": "Jabar <br> Amin",
+"text": "Jabar Amin",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0849219210615_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -1699,7 +1639,7 @@ null
  "x":     53,
 "y":      1,
 "color": "MP",
-"text": "Tina <br> Ehn",
+"text": "Tina Ehn",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0154189076919_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -1707,7 +1647,7 @@ null
  "x":     53,
 "y":      1,
 "color": "MP",
-"text": "Gunvor G <br> Ericson",
+"text": "Gunvor G Ericson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0640669898710_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -1715,7 +1655,7 @@ null
  "x":     51,
 "y":      1,
 "color": "MP",
-"text": "Esabelle <br> Dingizian",
+"text": "Esabelle Dingizian",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0182190010218_80.jpg",
 "valkrets": "Stockholms län" 
 } 
@@ -1728,7 +1668,7 @@ null
  "x":     28,
 "y":      1,
 "color": "S",
-"text": "Adnan <br> Dibrani",
+"text": "Adnan Dibrani",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0442629549320_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -1736,7 +1676,7 @@ null
  "x":     57,
 "y":      1,
 "color": "S",
-"text": "Agneta <br> Gille",
+"text": "Agneta Gille",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0376867803913_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -1744,7 +1684,7 @@ null
  "x":     56,
 "y":      1,
 "color": "S",
-"text": "Carina <br> Hägg",
+"text": "Carina Hägg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0600928907216_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -1752,7 +1692,7 @@ null
  "x":     57,
 "y":      1,
 "color": "S",
-"text": "Catharina <br> Bråkenhielm",
+"text": "Catharina Bråkenhielm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0264838147315_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -1760,7 +1700,7 @@ null
  "x":     56,
 "y":      1,
 "color": "S",
-"text": "Lena <br> Sommestad",
+"text": "Lena Sommestad",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0185498861416_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -1768,7 +1708,7 @@ null
  "x":     62,
 "y":      1,
 "color": "S",
-"text": "Hans <br> Olsson",
+"text": "Hans Olsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0456305921813_80.jpg",
 "valkrets": "Västra Götalands läns södra" 
 },
@@ -1776,7 +1716,7 @@ null
  "x":     62,
 "y":      1,
 "color": "S",
-"text": "Christina <br> Oskarsson",
+"text": "Christina Oskarsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0468775142013_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -1784,7 +1724,7 @@ null
  "x":     62,
 "y":      1,
 "color": "S",
-"text": "Jan-Olof <br> Larsson",
+"text": "Jan-Olof Larsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0544046588414_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -1792,7 +1732,7 @@ null
  "x":     61,
 "y":      1,
 "color": "S",
-"text": "Lennart <br> Axelsson",
+"text": "Lennart Axelsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0958776965517_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -1800,7 +1740,7 @@ null
  "x":     51,
 "y":      1,
 "color": "S",
-"text": "Clas-Göran <br> Carlsson",
+"text": "Clas-Göran Carlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/049290762318_80.jpg",
 "valkrets": "Kronobergs län" 
 },
@@ -1808,7 +1748,7 @@ null
  "x":     57,
 "y":      1,
 "color": "S",
-"text": "Kerstin <br> Nilsson",
+"text": "Kerstin Nilsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0905637653912_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -1816,7 +1756,7 @@ null
  "x":     63,
 "y":      1,
 "color": "S",
-"text": "Lars <br> Johansson",
+"text": "Lars Johansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0288805051019_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -1824,7 +1764,7 @@ null
  "x":     28,
 "y":      1,
 "color": "S",
-"text": "Sara <br> Karlsson",
+"text": "Sara Karlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0114869877121_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -1832,7 +1772,7 @@ null
  "x":     48,
 "y":      1,
 "color": "S",
-"text": "Annelie <br> Karlsson",
+"text": "Annelie Karlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0199751900210_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -1840,7 +1780,7 @@ null
  "x":     36,
 "y":      1,
 "color": "S",
-"text": "Hannah <br> Bergstedt",
+"text": "Hannah Bergstedt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/012576033427_80.jpg",
 "valkrets": "Norrbottens län" 
 },
@@ -1848,7 +1788,7 @@ null
  "x":     36,
 "y":      1,
 "color": "S",
-"text": "Fredrik <br> Lundh Sammeli",
+"text": "Fredrik Lundh Sammeli",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0911916463828_80.jpg",
 "valkrets": "Norrbottens län" 
 },
@@ -1856,7 +1796,7 @@ null
  "x":     33,
 "y":      1,
 "color": "S",
-"text": "Jonas <br> Gunnarsson",
+"text": "Jonas Gunnarsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0750727320521_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -1864,7 +1804,7 @@ null
  "x":     33,
 "y":      1,
 "color": "S",
-"text": "Anna <br> Wallén",
+"text": "Anna Wallén",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0970427364222_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -1872,7 +1812,7 @@ null
  "x":     60,
 "y":      1,
 "color": "S",
-"text": "Arhe <br> Hamednaca",
+"text": "Arhe Hamednaca",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0186426023519_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -1880,7 +1820,7 @@ null
  "x":     56,
 "y":      1,
 "color": "S",
-"text": "Patrik <br> Björck",
+"text": "Patrik Björck",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0516528386117_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -1888,7 +1828,7 @@ null
  "x":     56,
 "y":      1,
 "color": "S",
-"text": "Carina <br> Ohlsson",
+"text": "Carina Ohlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0859968278117_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -1896,7 +1836,7 @@ null
  "x":     44,
 "y":      1,
 "color": "S",
-"text": "Christer <br> Engelhardt",
+"text": "Christer Engelhardt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0936723349517_80.jpg",
 "valkrets": "Gotlands län" 
 },
@@ -1904,7 +1844,7 @@ null
  "x":     51,
 "y":      1,
 "color": "S",
-"text": "Ann-Kristine <br> Johansson",
+"text": "Ann-Kristine Johansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0960030082916_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -1912,7 +1852,7 @@ null
  "x":     51,
 "y":      1,
 "color": "S",
-"text": "Peter <br> Johnsson",
+"text": "Peter Johnsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0205360448417_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -1920,7 +1860,7 @@ null
  "x":     49,
 "y":      1,
 "color": "S",
-"text": "Ylva <br> Johansson",
+"text": "Ylva Johansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/011731125914_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -1928,7 +1868,7 @@ null
  "x":     49,
 "y":      1,
 "color": "S",
-"text": "Urban <br> Ahlin",
+"text": "Urban Ahlin",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0891971250317_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -1936,7 +1876,7 @@ null
  "x":     48,
 "y":      1,
 "color": "S",
-"text": "Kent <br> Härstedt",
+"text": "Kent Härstedt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0910241260018_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -1944,7 +1884,7 @@ null
  "x":     58,
 "y":      1,
 "color": "S",
-"text": "Kerstin <br> Haglö",
+"text": "Kerstin Haglö",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0583257327619_80.jpg",
 "valkrets": "Blekinge län" 
 },
@@ -1952,7 +1892,7 @@ null
  "x":     58,
 "y":      1,
 "color": "S",
-"text": "Eva <br> Sonidsson",
+"text": "Eva Sonidsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0565167965311_80.jpg",
 "valkrets": "Västernorrlands län" 
 },
@@ -1960,7 +1900,7 @@ null
  "x":     68,
 "y":      1,
 "color": "S",
-"text": "Björn <br> von Sydow",
+"text": "Björn von Sydow",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0787533297400_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -1968,7 +1908,7 @@ null
  "x":     66,
 "y":      1,
 "color": "S",
-"text": "Carin <br> Runeson",
+"text": "Carin Runeson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0502174718806_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -1976,7 +1916,7 @@ null
  "x":     66,
 "y":      1,
 "color": "S",
-"text": "Kerstin <br> Engle",
+"text": "Kerstin Engle",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0251564185908_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -1984,7 +1924,7 @@ null
  "x":     65,
 "y":      1,
 "color": "S",
-"text": "Billy <br> Gustafsson",
+"text": "Billy Gustafsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0933424396309_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -1992,7 +1932,7 @@ null
  "x":     65,
 "y":      1,
 "color": "S",
-"text": "Susanne <br> Eberstein",
+"text": "Susanne Eberstein",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0235974887200_80.jpg",
 "valkrets": "Västernorrlands län" 
 },
@@ -2000,7 +1940,7 @@ null
  "x":     65,
 "y":      1,
 "color": "S",
-"text": "Kurt <br> Kvarnström",
+"text": "Kurt Kvarnström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0262124593702_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -2008,7 +1948,7 @@ null
  "x":     64,
 "y":      1,
 "color": "S",
-"text": "Bo <br> Bernhardsson",
+"text": "Bo Bernhardsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0701525641715_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -2016,7 +1956,7 @@ null
  "x":     37,
 "y":      1,
 "color": "S",
-"text": "Johan <br> Löfstrand",
+"text": "Johan Löfstrand",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0612916684825_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -2024,7 +1964,7 @@ null
  "x":     60,
 "y":      1,
 "color": "S",
-"text": "Ann <br> Arleklo",
+"text": "Ann Arleklo",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0641996868011_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -2032,7 +1972,7 @@ null
  "x":     60,
 "y":      1,
 "color": "S",
-"text": "Karin <br> Åström",
+"text": "Karin Åström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0699506181311_80.jpg",
 "valkrets": "Norrbottens län" 
 },
@@ -2040,7 +1980,7 @@ null
  "x":     59,
 "y":      1,
 "color": "S",
-"text": "Thomas <br> Strand",
+"text": "Thomas Strand",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0269067253614_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -2048,7 +1988,7 @@ null
  "x":     57,
 "y":      1,
 "color": "S",
-"text": "Raimo <br> Pärssinen",
+"text": "Raimo Pärssinen",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0113077554312_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -2056,7 +1996,7 @@ null
  "x":     57,
 "y":      1,
 "color": "S",
-"text": "Helene <br> Petersson",
+"text": "Helene Petersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0617957067613_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -2064,7 +2004,7 @@ null
  "x":     62,
 "y":      1,
 "color": "S",
-"text": "Anders <br> Karlsson",
+"text": "Anders Karlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/087735695612_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -2072,7 +2012,7 @@ null
  "x":     61,
 "y":      1,
 "color": "S",
-"text": "Krister <br> Örnfjäder",
+"text": "Krister Örnfjäder",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0573136138218_80.jpg",
 "valkrets": "Kalmar län" 
 },
@@ -2080,7 +2020,7 @@ null
  "x":     59,
 "y":      1,
 "color": "S",
-"text": "Leif <br> Pettersson",
+"text": "Leif Pettersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0365797008114_80.jpg",
 "valkrets": "Norrbottens län" 
 },
@@ -2088,7 +2028,7 @@ null
  "x":     59,
 "y":      1,
 "color": "S",
-"text": "Katarina <br> Köhler",
+"text": "Katarina Köhler",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0251617324715_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -2096,7 +2036,7 @@ null
  "x":     58,
 "y":      1,
 "color": "S",
-"text": "Phia <br> Andersson",
+"text": "Phia Andersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0133767709317_80.jpg",
 "valkrets": "Västra Götalands läns södra" 
 },
@@ -2104,7 +2044,7 @@ null
  "x":     58,
 "y":      1,
 "color": "S",
-"text": "Leif <br> Jakobsson",
+"text": "Leif Jakobsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0482927154110_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -2112,7 +2052,7 @@ null
  "x":     57,
 "y":      1,
 "color": "S",
-"text": "Åsa <br> Lindestam",
+"text": "Åsa Lindestam",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0252067342313_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -2120,7 +2060,7 @@ null
  "x":     50,
 "y":      1,
 "color": "S",
-"text": "Hans <br> Hoff",
+"text": "Hans Hoff",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0540190357911_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -2128,7 +2068,7 @@ null
  "x":     50,
 "y":      1,
 "color": "S",
-"text": "Tommy <br> Waidelich",
+"text": "Tommy Waidelich",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0135730306412_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2136,7 +2076,7 @@ null
  "x":     39,
 "y":      1,
 "color": "S",
-"text": "Hillevi <br> Larsson",
+"text": "Hillevi Larsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0878075468027_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -2144,7 +2084,7 @@ null
  "x":     39,
 "y":      1,
 "color": "S",
-"text": "Teres <br> Lindberg",
+"text": "Teres Lindberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0559925283228_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -2152,7 +2092,7 @@ null
  "x":     56,
 "y":      1,
 "color": "S",
-"text": "Ann-Christin <br> Ahlberg",
+"text": "Ann-Christin Ahlberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0909948830718_80.jpg",
 "valkrets": "Västra Götalands läns södra" 
 },
@@ -2160,7 +2100,7 @@ null
  "x":     51,
 "y":      1,
 "color": "S",
-"text": "Ingela <br> Nylund Watz",
+"text": "Ingela Nylund Watz",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0313390540217_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2168,7 +2108,7 @@ null
  "x":     35,
 "y":      1,
 "color": "S",
-"text": "Ardalan <br> Shekarabi",
+"text": "Ardalan Shekarabi",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0922497728524_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2176,7 +2116,7 @@ null
  "x":     46,
 "y":      1,
 "color": "S",
-"text": "Isak <br> From",
+"text": "Isak From",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0506482805418_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -2184,7 +2124,7 @@ null
  "x":     43,
 "y":      1,
 "color": "S",
-"text": "Lars <br> Eriksson",
+"text": "Lars Eriksson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0988383147219_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -2192,7 +2132,7 @@ null
  "x":     55,
 "y":      1,
 "color": "S",
-"text": "Suzanne <br> Svensson",
+"text": "Suzanne Svensson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0916608741910_80.jpg",
 "valkrets": "Blekinge län" 
 },
@@ -2200,7 +2140,7 @@ null
  "x":     48,
 "y":      1,
 "color": "S",
-"text": "Per <br> Svedberg",
+"text": "Per Svedberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0447461551212_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -2208,7 +2148,7 @@ null
  "x":     48,
 "y":      1,
 "color": "S",
-"text": "Lars Mejern <br> Larsson",
+"text": "Lars Mejern Larsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0427321850912_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -2216,7 +2156,7 @@ null
  "x":     47,
 "y":      1,
 "color": "S",
-"text": "Gunilla <br> Carlsson",
+"text": "Gunilla Carlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0875221317013_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -2224,7 +2164,7 @@ null
  "x":     47,
 "y":      1,
 "color": "S",
-"text": "Maria <br> Stenberg",
+"text": "Maria Stenberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0747852417614_80.jpg",
 "valkrets": "Norrbottens län" 
 },
@@ -2232,7 +2172,7 @@ null
  "x":     47,
 "y":      1,
 "color": "S",
-"text": "Gunnar <br> Sandberg",
+"text": "Gunnar Sandberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0103812031214_80.jpg",
 "valkrets": "Jämtlands län" 
 },
@@ -2240,7 +2180,7 @@ null
  "x":     47,
 "y":      1,
 "color": "S",
-"text": "Tomas <br> Eneroth",
+"text": "Tomas Eneroth",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0284192765516_80.jpg",
 "valkrets": "Kronobergs län" 
 },
@@ -2248,7 +2188,7 @@ null
  "x":     46,
 "y":      1,
 "color": "S",
-"text": "Kenneth G <br> Forslund",
+"text": "Kenneth G Forslund",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0257612529618_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -2256,7 +2196,7 @@ null
  "x":     46,
 "y":      1,
 "color": "S",
-"text": "Marie <br> Nordén",
+"text": "Marie Nordén",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0291542732518_80.jpg",
 "valkrets": "Jämtlands län" 
 },
@@ -2264,7 +2204,7 @@ null
  "x":     46,
 "y":      1,
 "color": "S",
-"text": "Jasenko <br> Omanovic",
+"text": "Jasenko Omanovic",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/043972220518_80.jpg",
 "valkrets": "Västernorrlands län" 
 },
@@ -2272,7 +2212,7 @@ null
  "x":     46,
 "y":      1,
 "color": "S",
-"text": "Olle <br> Thorell",
+"text": "Olle Thorell",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0879782396219_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -2280,7 +2220,7 @@ null
  "x":     45,
 "y":      1,
 "color": "S",
-"text": "Peter <br> Jeppsson",
+"text": "Peter Jeppsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/067992138910_80.jpg",
 "valkrets": "Blekinge län" 
 },
@@ -2288,7 +2228,7 @@ null
  "x":     43,
 "y":      1,
 "color": "S",
-"text": "Morgan <br> Johansson",
+"text": "Morgan Johansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0473783431010_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -2296,7 +2236,7 @@ null
  "x":     43,
 "y":      1,
 "color": "S",
-"text": "Anders <br> Ygeman",
+"text": "Anders Ygeman",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0744993950910_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -2304,7 +2244,7 @@ null
  "x":     43,
 "y":      1,
 "color": "S",
-"text": "Hans <br> Unander",
+"text": "Hans Unander",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0467253407311_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -2312,7 +2252,7 @@ null
  "x":     43,
 "y":      1,
 "color": "S",
-"text": "Désirée <br> Liljevall",
+"text": "Désirée Liljevall",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0767503635911_80.jpg",
 "valkrets": "Kalmar län" 
 },
@@ -2320,7 +2260,7 @@ null
  "x":     42,
 "y":      1,
 "color": "S",
-"text": "Mikael <br> Damberg",
+"text": "Mikael Damberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/014744660015_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2328,7 +2268,7 @@ null
  "x":     41,
 "y":      1,
 "color": "S",
-"text": "Jennie <br> Nilsson",
+"text": "Jennie Nilsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0339894357417_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -2336,7 +2276,7 @@ null
  "x":     41,
 "y":      1,
 "color": "S",
-"text": "Ibrahim <br> Baylan",
+"text": "Ibrahim Baylan",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0973474532717_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -2344,7 +2284,7 @@ null
  "x":     41,
 "y":      1,
 "color": "S",
-"text": "Helén <br> Pettersson",
+"text": "Helén Pettersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0103624617217_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -2352,7 +2292,7 @@ null
  "x":     41,
 "y":      1,
 "color": "S",
-"text": "Louise <br> Malmström",
+"text": "Louise Malmström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0203334943718_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -2360,7 +2300,7 @@ null
  "x":     40,
 "y":      1,
 "color": "S",
-"text": "Veronica <br> Palm",
+"text": "Veronica Palm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0548314774911_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -2368,7 +2308,7 @@ null
  "x":     40,
 "y":      1,
 "color": "S",
-"text": "Matilda <br> Ernkrans",
+"text": "Matilda Ernkrans",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0983984918111_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -2376,7 +2316,7 @@ null
  "x":     40,
 "y":      1,
 "color": "S",
-"text": "Fredrik <br> Olovsson",
+"text": "Fredrik Olovsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0653904370212_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -2384,7 +2324,7 @@ null
  "x":     40,
 "y":      1,
 "color": "S",
-"text": "Meeri <br> Wasberg",
+"text": "Meeri Wasberg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0741225202024_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2392,7 +2332,7 @@ null
  "x":     40,
 "y":      1,
 "color": "S",
-"text": "Lena <br> Hallengren",
+"text": "Lena Hallengren",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0853395328224_80.jpg",
 "valkrets": "Kalmar län" 
 },
@@ -2400,7 +2340,7 @@ null
  "x":     39,
 "y":      1,
 "color": "S",
-"text": "Mattias <br> Jonsson",
+"text": "Mattias Jonsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0499755198526_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -2408,7 +2348,7 @@ null
  "x":     46,
 "y":      1,
 "color": "S",
-"text": "Shadiye <br> Heydari",
+"text": "Shadiye Heydari",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0231432628318_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -2416,7 +2356,7 @@ null
  "x":     49,
 "y":      1,
 "color": "S",
-"text": "Gunilla <br> Svantorp",
+"text": "Gunilla Svantorp",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0801311569314_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -2424,7 +2364,7 @@ null
  "x":     59,
 "y":      1,
 "color": "S",
-"text": "Håkan <br> Bergman",
+"text": "Håkan Bergman",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0299937536814_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -2432,7 +2372,7 @@ null
  "x":     35,
 "y":      1,
 "color": "S",
-"text": "Elin <br> Lundgren",
+"text": "Elin Lundgren",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/089246126523_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -2440,7 +2380,7 @@ null
  "x":     48,
 "y":      1,
 "color": "S",
-"text": "Kristina <br> Nilsson",
+"text": "Kristina Nilsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0779781772919_80.jpg",
 "valkrets": "Västernorrlands län" 
 },
@@ -2448,7 +2388,7 @@ null
  "x":     57,
 "y":      1,
 "color": "S",
-"text": "Ingemar <br> Nilsson",
+"text": "Ingemar Nilsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0208558695314_80.jpg",
 "valkrets": "Västernorrlands län" 
 },
@@ -2456,7 +2396,7 @@ null
  "x":     48,
 "y":      1,
 "color": "S",
-"text": "Pyry <br> Niemi",
+"text": "Pyry Niemi",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0752691002718_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -2464,7 +2404,7 @@ null
  "x":     55,
 "y":      1,
 "color": "S",
-"text": "Hans <br> Ekström",
+"text": "Hans Ekström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0475778011711_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -2472,7 +2412,7 @@ null
  "x":     59,
 "y":      1,
 "color": "S",
-"text": "Anna-Lena <br> Sörenson",
+"text": "Anna-Lena Sörenson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0483837558914_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -2480,7 +2420,7 @@ null
  "x":     58,
 "y":      1,
 "color": "S",
-"text": "Peter <br> Persson",
+"text": "Peter Persson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0903307301618_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -2488,7 +2428,7 @@ null
  "x":     55,
 "y":      1,
 "color": "S",
-"text": "Berit <br> Högman",
+"text": "Berit Högman",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0552248175312_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -2496,7 +2436,7 @@ null
  "x":     55,
 "y":      1,
 "color": "S",
-"text": "Peter <br> Hultqvist",
+"text": "Peter Hultqvist",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0937688366013_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -2504,7 +2444,7 @@ null
  "x":     54,
 "y":      1,
 "color": "S",
-"text": "Carina <br> Adolfsson Elgestam",
+"text": "Carina Adolfsson Elgestam",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0731809135516_80.jpg",
 "valkrets": "Kronobergs län" 
 },
@@ -2512,7 +2452,7 @@ null
  "x":     54,
 "y":      1,
 "color": "S",
-"text": "Monica <br> Green",
+"text": "Monica Green",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0975579292417_80.jpg",
 "valkrets": "Västra Götalands läns östra" 
 },
@@ -2520,7 +2460,7 @@ null
  "x":     53,
 "y":      1,
 "color": "S",
-"text": "Börje <br> Vestlund",
+"text": "Börje Vestlund",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0720249554818_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -2528,7 +2468,7 @@ null
  "x":     53,
 "y":      1,
 "color": "S",
-"text": "Christina <br> Zedell",
+"text": "Christina Zedell",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0964379974219_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2536,7 +2476,7 @@ null
  "x":     53,
 "y":      1,
 "color": "S",
-"text": "Cecilia <br> Dalman Eek",
+"text": "Cecilia Dalman Eek",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781029778411_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -2544,7 +2484,7 @@ null
  "x":     52,
 "y":      1,
 "color": "S",
-"text": "Johan <br> Andersson",
+"text": "Johan Andersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0964730940415_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -2552,7 +2492,7 @@ null
  "x":     51,
 "y":      1,
 "color": "S",
-"text": "Pia <br> Nilsson",
+"text": "Pia Nilsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0460690753617_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -2560,7 +2500,7 @@ null
  "x":     51,
 "y":      1,
 "color": "S",
-"text": "Christer <br> Adelsbo",
+"text": "Christer Adelsbo",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0165360915617_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -2568,7 +2508,7 @@ null
  "x":     51,
 "y":      1,
 "color": "S",
-"text": "Marie <br> Granlund",
+"text": "Marie Granlund",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0136310791918_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -2576,7 +2516,7 @@ null
  "x":     51,
 "y":      1,
 "color": "S",
-"text": "Håkan <br> Juholt",
+"text": "Håkan Juholt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0110600080618_80.jpg",
 "valkrets": "Kalmar län" 
 },
@@ -2584,7 +2524,7 @@ null
  "x":     50,
 "y":      1,
 "color": "S",
-"text": "Caroline <br> Helmersson Olsson",
+"text": "Caroline Helmersson Olsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0537400268911_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -2592,7 +2532,7 @@ null
  "x":     50,
 "y":      1,
 "color": "S",
-"text": "Yilmaz <br> Kerimo",
+"text": "Yilmaz Kerimo",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0515990253512_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2600,7 +2540,7 @@ null
  "x":     50,
 "y":      1,
 "color": "S",
-"text": "Jörgen <br> Hellman",
+"text": "Jörgen Hellman",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781520322912_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -2608,7 +2548,7 @@ null
  "x":     50,
 "y":      1,
 "color": "S",
-"text": "Eva-Lena <br> Jansson",
+"text": "Eva-Lena Jansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/048970816012_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -2616,7 +2556,7 @@ null
  "x":     59,
 "y":      1,
 "color": "S",
-"text": "Sven-Erik <br> Bucht",
+"text": "Sven-Erik Bucht",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781357446917_80.jpg",
 "valkrets": "Norrbottens län" 
 } 
@@ -2629,7 +2569,7 @@ null
  "x":     36,
 "y":      1,
 "color": "SD",
-"text": "Mattias <br> Karlsson",
+"text": "Mattias Karlsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0831636664429_80.jpg",
 "valkrets": "Skåne läns norra och östra" 
 },
@@ -2637,7 +2577,7 @@ null
  "x":     64,
 "y":      1,
 "color": "SD",
-"text": "Jonas <br> Åkerlund",
+"text": "Jonas Åkerlund",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0879014196003_80.jpg",
 "valkrets": "Blekinge län" 
 },
@@ -2645,7 +2585,7 @@ null
  "x":     74,
 "y":      1,
 "color": "SD",
-"text": "Tony <br> Wiklander",
+"text": "Tony Wiklander",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0693341580004_80.jpg",
 "valkrets": "Skåne läns västra" 
 },
@@ -2653,7 +2593,7 @@ null
  "x":     34,
 "y":      1,
 "color": "SD",
-"text": "Jimmie <br> Åkesson",
+"text": "Jimmie Åkesson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/051207517226_80.jpg",
 "valkrets": "Jönköpings län" 
 },
@@ -2661,7 +2601,7 @@ null
  "x":     48,
 "y":      1,
 "color": "SD",
-"text": "Mikael <br> Jansson",
+"text": "Mikael Jansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0236051814311_80.jpg",
 "valkrets": "Hallands län" 
 },
@@ -2669,7 +2609,7 @@ null
  "x":     41,
 "y":      1,
 "color": "SD",
-"text": "David <br> Lång",
+"text": "David Lång",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0494054455310_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -2677,7 +2617,7 @@ null
  "x":     69,
 "y":      1,
 "color": "SD",
-"text": "Stellan <br> Bojerud",
+"text": "Stellan Bojerud",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0575313291605_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -2685,7 +2625,7 @@ null
  "x":     60,
 "y":      1,
 "color": "SD",
-"text": "Anna <br> Hagwall",
+"text": "Anna Hagwall",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0105126451619_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -2693,7 +2633,7 @@ null
  "x":     60,
 "y":      1,
 "color": "SD",
-"text": "Olle <br> Larsson",
+"text": "Olle Larsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0156396655712_80.jpg",
 "valkrets": "Skåne läns södra" 
 },
@@ -2701,7 +2641,7 @@ null
  "x":     30,
 "y":      1,
 "color": "SD",
-"text": "Adam <br> Marttinen",
+"text": "Adam Marttinen",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0831039938224_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -2709,7 +2649,7 @@ null
  "x":     32,
 "y":      1,
 "color": "SD",
-"text": "Kent <br> Ekeroth",
+"text": "Kent Ekeroth",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0369028728526_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2717,7 +2657,7 @@ null
  "x":     37,
 "y":      1,
 "color": "SD",
-"text": "Björn <br> Söder",
+"text": "Björn Söder",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0452755722723_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2725,7 +2665,7 @@ null
  "x":     45,
 "y":      1,
 "color": "SD",
-"text": "Sven-Olof <br> Sällström",
+"text": "Sven-Olof Sällström",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0772402807013_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -2733,7 +2673,7 @@ null
  "x":     35,
 "y":      1,
 "color": "SD",
-"text": "Johnny <br> Skalin",
+"text": "Johnny Skalin",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0455086201022_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -2741,7 +2681,7 @@ null
  "x":     46,
 "y":      1,
 "color": "SD",
-"text": "Per <br> Ramhorn",
+"text": "Per Ramhorn",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0925652297119_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -2749,7 +2689,7 @@ null
  "x":     44,
 "y":      1,
 "color": "SD",
-"text": "Richard <br> Jomshof",
+"text": "Richard Jomshof",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0803753212716_80.jpg",
 "valkrets": "Gävleborgs län" 
 },
@@ -2757,7 +2697,7 @@ null
  "x":     42,
 "y":      1,
 "color": "SD",
-"text": "Carina <br> Herrstedt",
+"text": "Carina Herrstedt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0603753860213_80.jpg",
 "valkrets": "Södermanlands län" 
 },
@@ -2765,7 +2705,7 @@ null
  "x":     56,
 "y":      1,
 "color": "SD",
-"text": "Thoralf <br> Alfsson",
+"text": "Thoralf Alfsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0132698667318_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -2773,7 +2713,7 @@ null
  "x":     35,
 "y":      1,
 "color": "SD",
-"text": "Josef <br> Fransson",
+"text": "Josef Fransson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0211757295524_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -2781,7 +2721,7 @@ null
  "x":     25,
 "y":      1,
 "color": "SD",
-"text": "Markus <br> Wiechel",
+"text": "Markus Wiechel",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0204240926023_80.jpg",
 "valkrets": "Uppsala län" 
 } 
@@ -2794,7 +2734,7 @@ null
  "x":     56,
 "y":      1,
 "color": "V",
-"text": "Lars <br> Ohly",
+"text": "Lars Ohly",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0371688419616_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2802,7 +2742,7 @@ null
  "x":     61,
 "y":      1,
 "color": "V",
-"text": "Eva <br> Olofsson",
+"text": "Eva Olofsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0902086611116_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -2810,7 +2750,7 @@ null
  "x":     63,
 "y":      1,
 "color": "V",
-"text": "Wiwi-Anne <br> Johansson",
+"text": "Wiwi-Anne Johansson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0995355603410_80.jpg",
 "valkrets": "Västra Götalands läns västra" 
 },
@@ -2818,7 +2758,7 @@ null
  "x":     49,
 "y":      1,
 "color": "V",
-"text": "Jonas <br> Sjöstedt",
+"text": "Jonas Sjöstedt",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0383111552218_80.jpg",
 "valkrets": "Västerbottens län" 
 },
@@ -2826,7 +2766,7 @@ null
  "x":     34,
 "y":      1,
 "color": "V",
-"text": "Hans <br> Linde",
+"text": "Hans Linde",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0901257862125_80.jpg",
 "valkrets": "Göteborgs kommun" 
 },
@@ -2834,7 +2774,7 @@ null
  "x":     42,
 "y":      1,
 "color": "V",
-"text": "Jens <br> Holm",
+"text": "Jens Holm",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0216534495014_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -2842,7 +2782,7 @@ null
  "x":     55,
 "y":      1,
 "color": "V",
-"text": "Lena <br> Olsson",
+"text": "Lena Olsson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0615338062910_80.jpg",
 "valkrets": "Dalarnas län" 
 },
@@ -2850,7 +2790,7 @@ null
  "x":     44,
 "y":      1,
 "color": "V",
-"text": "Josefin <br> Brink",
+"text": "Josefin Brink",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0116603319117_80.jpg",
 "valkrets": "Stockholms kommun" 
 },
@@ -2858,7 +2798,7 @@ null
  "x":     65,
 "y":      1,
 "color": "V",
-"text": "Jacob <br> Johnson",
+"text": "Jacob Johnson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/039984931601_80.jpg",
 "valkrets": "Uppsala län" 
 },
@@ -2866,7 +2806,7 @@ null
  "x":     56,
 "y":      1,
 "color": "V",
-"text": "Torbjörn <br> Björlund",
+"text": "Torbjörn Björlund",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/037508021018_80.jpg",
 "valkrets": "Östergötlands län" 
 },
@@ -2874,7 +2814,7 @@ null
  "x":     62,
 "y":      1,
 "color": "V",
-"text": "Kent <br> Persson",
+"text": "Kent Persson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0124035957411_80.jpg",
 "valkrets": "Västmanlands län" 
 },
@@ -2882,7 +2822,7 @@ null
  "x":     61,
 "y":      1,
 "color": "V",
-"text": "Siv <br> Holma",
+"text": "Siv Holma",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0395416536118_80.jpg",
 "valkrets": "Norrbottens län" 
 },
@@ -2890,7 +2830,7 @@ null
  "x":     59,
 "y":      1,
 "color": "V",
-"text": "Marianne <br> Berg",
+"text": "Marianne Berg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0679667648714_80.jpg",
 "valkrets": "Malmö kommun" 
 },
@@ -2898,7 +2838,7 @@ null
  "x":     43,
 "y":      1,
 "color": "V",
-"text": "Amineh <br> Kakabaveh",
+"text": "Amineh Kakabaveh",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0545353563812_80.jpg",
 "valkrets": "Stockholms län" 
 },
@@ -2906,7 +2846,7 @@ null
  "x":     39,
 "y":      1,
 "color": "V",
-"text": "Rossana <br> Dinamarca",
+"text": "Rossana Dinamarca",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0321885416125_80.jpg",
 "valkrets": "Västra Götalands läns norra" 
 },
@@ -2914,7 +2854,7 @@ null
  "x":     67,
 "y":      1,
 "color": "V",
-"text": "Bengt <br> Berg",
+"text": "Bengt Berg",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0188653245302_80.jpg",
 "valkrets": "Värmlands län" 
 },
@@ -2922,7 +2862,7 @@ null
  "x":     42,
 "y":      1,
 "color": "V",
-"text": "Christina <br> Höj Larsen",
+"text": "Christina Höj Larsen",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0521844714515_80.jpg",
 "valkrets": "Västernorrlands län" 
 },
@@ -2930,7 +2870,7 @@ null
  "x":     53,
 "y":      1,
 "color": "V",
-"text": "Mia <br> Sydow Mölleby",
+"text": "Mia Sydow Mölleby",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0415959965211_80.jpg",
 "valkrets": "Örebro län" 
 },
@@ -2938,7 +2878,7 @@ null
  "x":     50,
 "y":      1,
 "color": "V",
-"text": "Ulla <br> Andersson",
+"text": "Ulla Andersson",
 "url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0628190530410_80.jpg",
 "valkrets": "Gävleborgs län" 
 } 
@@ -2964,28 +2904,22 @@ null
     + '<img src=\"'
     + this.point.url
     + '\" height=80 width=60></td><td>'
-    + this.point.text + '<br><br>Ålder: ' + this.point.x + '<br>Valkrets: ' + this.point.valkrets
+    + this.point.text + '<br><br>' + this.point.x + ' år<br>' + this.point.valkrets
     + '</td></tr></table>';}  
 },
 "chart": {
  "type": "scatter",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76473031a" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7732ffa70" 
 },
 "xAxis": [
  {
  "title": {
- "text": "Age at the beginning of the year" 
+ "text": "Ålder i början av året" 
 } 
 } 
 ],
-"legend": {
- "align": "top",
-"title": {
- "text": "Party" 
-} 
-},
-"colors": [ "rgba(223, 83, 83, .5)", "rgba(60, 179, 113, .5)", "rgba(238, 130, 238, .5)", "rgba(30, 144, 255, .5)", "rgba(139, 139, 131, .5)", "rgba(55, 20, 90, .5)", "rgba(178, 230, 66, .5)", "rgba(211, 15, 15, .5)" ],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76473031a" 
+"colors": [ "rgba(223, 83, 83, .5)", "rgba(60, 179, 113, .5)", "rgba(238, 130, 238, .5)", "rgba(30, 144, 255, .5)", "rgba(139, 10, 10, .5)", "rgba(55, 20, 90, .5)", "rgba(178, 230, 66, .5)", "rgba(211, 15, 15, .5)" ],
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7732ffa70" 
 });
         });
     })(jQuery);

@@ -23,7 +23,7 @@ fun <- function(p) {
     x = year(Sys.Date())-p$fodd_ar, 
     y = 1, 
     color = p$parti,
-    text = paste(p$tilltalsnamn, '<br>', p$efternamn),
+    text = paste(p$tilltalsnamn, p$efternamn),
     url = p$bild_url_80,
     valkrets = p$valkrets
   )
@@ -48,26 +48,26 @@ a$tooltip(
     + '<img src=\"'
     + this.point.url
     + '\" height=80 width=60></td><td>'
-    + this.point.text + '<br><br>Ålder: ' + this.point.x + '<br>Valkrets: ' + this.point.valkrets
+    + this.point.text + '<br><br>' + this.point.x + ' år<br>' + this.point.valkrets
     + '</td></tr></table>';} !#"
 )
 a$chart(type = "scatter")
-a$xAxis(title = list(text = "Age at the beginning of the year"))
+a$xAxis(title = list(text = "Ålder i början av året"))
 a$yAxis(title = list(enabled = F), min = 0, max = 20)
-a$legend(
-  align = 'top', 
-  #verticalAlign = 'middle', 
-  #layout = 'vertical', 
-  title = list(text = "Party")
-)
-a$title(text = "Members of the Swedish Parliament, 2013")
+# a$legend(
+#   align = 'top'#, 
+#   #verticalAlign = 'middle', 
+#   #layout = 'vertical', 
+#   #title = list(text = "Politiskt parti")
+# )
+a$title(text = "Riksdagsledamöter 2013")
 a$credits(href = "http://data.riksdagen.se/", text = "Källa: Riksdagens API")
 a$colors(
   'rgba(223, 83, 83, .5)', 
   'rgba(60, 179, 113, .5)', 
   'rgba(238, 130, 238, .5)', 
   'rgba(30, 144, 255, .5)', 
-  'rgba(139, 139, 131, .5)',
+  'rgba(139, 10, 10, .5)',
   'rgba(55, 20, 90, .5)',
   'rgba(178, 230, 66, .5)',
   'rgba(211, 15, 15, .5)'
