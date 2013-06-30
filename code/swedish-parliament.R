@@ -1,7 +1,8 @@
 require(RJSONIO)
 require(rCharts)
 
-url <- "http://data.riksdagen.se/personlista/?iid=&fnamn=&enamn=&f_ar=&kn=&parti=&valkrets=&rdlstatus=&org=&utformat=json&termlista="
+#url <- "http://data.riksdagen.se/personlista/?iid=&fnamn=&enamn=&f_ar=&kn=&parti=&valkrets=&rdlstatus=&org=&utformat=json&termlista="
+url <- "data/personlista.json"
 json <- readLines(url, warn = FALSE)
 
 persons <- fromJSON(json)$personlista

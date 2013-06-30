@@ -43,3 +43,32 @@ a <- create_chart("code/swedish-parliament.R")
 a$print(tempfile())
 ```
 
+<style>
+body { 
+  background-image:url('assets/img/vintage-seamless-digital-scrapbooking-paper-textures-001-01.jpg');
+}
+header {
+   margin-top: 30px;
+   margin-left: -20px;
+   margin-right: -20px;
+   padding-top: 30px;
+   padding: 19px;
+
+   border: 1px solid #d8d8d8;
+   background-color: #ffffff;
+   border-top-width: 0;
+   border-bottom-width: 2px;
+   -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+           border-radius: 3px;
+   -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+           box-shadow: none;
+
+
+}
+header img {
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
