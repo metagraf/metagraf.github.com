@@ -87,8 +87,8 @@
     <div class="span3 bs-docs-sidebar">
       <ul class="nav nav-list bs-docs-sidenav">
         <li><a href="#slide-1"> Om oss</a></li>
-        <li><a href="#slide-2"> Exempelgraf</a></li>
-        <li><a href="#slide-3"> Kontakt</a></li>
+        <li><a href="#slide-2"> Exempel 1</a></li>
+        <li><a href="#slide-3"> Exempel 2</a></li>
       </ul>
     </div>
     
@@ -102,7 +102,7 @@
 </section>
 <section id="slide-2">
   <div class="page-header">
-    <h1>Exempelgraf</h1>
+    <h1>Exempel 1</h1>
   </div>
   <p>Nedan är ett exempel på graf.</p>
 
@@ -113,7 +113,7 @@ a$series(data = c(0, 3, 2, 4, NA),
   dashStyle = &quot;longdash&quot;)
 a$series(data = c(NA, 4, 1, 3, 1), 
   dashStyle = &quot;shortdot&quot;)
-a$print(&quot;line&quot;, include_assets = T, cdn = T)
+a$print(tempfile(), include_assets = T, cdn = T)
 </code></pre>
 
 <script type='text/javascript' src=http://code.jquery.com/jquery-1.9.1.min.js></script>
@@ -122,13 +122,13 @@ a$print(&quot;line&quot;, include_assets = T, cdn = T)
 
 <script type='text/javascript' src=http://code.highcharts.com/highcharts-more.js></script>
 
-<div id='line' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae73c1a99ce' class='rChart highcharts'></div>
 
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "line",
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae73c1a99ce",
 "width":    600,
 "height":    400,
 "credits": {
@@ -145,7 +145,7 @@ a$print(&quot;line&quot;, include_assets = T, cdn = T)
 },
 "chart": {
  "type": "spline",
-"renderTo": "line" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae73c1a99ce" 
 },
 "series": [
  {
@@ -169,7 +169,7 @@ null
 "dashStyle": "shortdot" 
 } 
 ],
-"id": "line" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae73c1a99ce" 
 });
         });
     })(jQuery);
@@ -178,9 +178,2567 @@ null
 </section>
 <section id="slide-3">
   <div class="page-header">
-    <h1>Kontakt</h1>
+    <h1>Exempel 2</h1>
   </div>
-  <p>...</p>
+  <pre><code class="r">require(rCharts)
+a &lt;- create_chart(&quot;code/swedish-parliament.R&quot;)
+a$print(tempfile())
+</code></pre>
+
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae715ff624e' class='rChart highcharts'></div>
+
+<script type='text/javascript'>
+    (function($){
+        $(function () {
+            var chart = new Highcharts.Chart({
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae715ff624e",
+"width":    600,
+"height":    400,
+"credits": {
+ "href": "http://data.riksdagen.se/",
+"text": "Källa: Riksdagens API" 
+},
+"title": {
+ "text": "Members of the Swedish Parliament, 2013" 
+},
+"yAxis": [
+ {
+ "title": {
+ "enabled": false 
+},
+"min":      0,
+"max":     20 
+} 
+],
+"series": [
+ {
+ "data": [
+ {
+ "x":     57,
+"y":      1,
+"color": "C",
+"text": "Karin <br> Nilsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0807438844115_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "C",
+"text": "Abir <br> Al-Sahlani",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0895706637124_80.jpg" 
+},
+{
+ "x":     69,
+"y":      1,
+"color": "C",
+"text": "Per-Ingvar <br> Johnsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0256743155204_80.jpg" 
+},
+{
+ "x":     66,
+"y":      1,
+"color": "C",
+"text": "Staffan <br> Danielsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0352254228107_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "C",
+"text": "Ola <br> Johansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0934639939611_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "C",
+"text": "Fredrick <br> Federley",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0868286862422_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "C",
+"text": "Per <br> Åsling",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0679228585116_80.jpg" 
+},
+{
+ "x":     49,
+"y":      1,
+"color": "C",
+"text": "Annika <br> Qarlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0962841101917_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "C",
+"text": "Kerstin <br> Lundgren",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0155487380917_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "C",
+"text": "Ulrika <br> Carlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0836001490919_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "C",
+"text": "Solveig <br> Zander",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0196077326617_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "C",
+"text": "Per <br> Lodenius",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0363721826713_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "C",
+"text": "Roger <br> Tiefensee",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0959102638818_80.jpg" 
+},
+{
+ "x":     44,
+"y":      1,
+"color": "C",
+"text": "Erik <br> A Eriksson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0391973624515_80.jpg" 
+},
+{
+ "x":     41,
+"y":      1,
+"color": "C",
+"text": "Helena <br> Lindahl",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/084624777218_80.jpg" 
+},
+{
+ "x":     39,
+"y":      1,
+"color": "C",
+"text": "Johan <br> Linander",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0324815829026_80.jpg" 
+},
+{
+ "x":     30,
+"y":      1,
+"color": "C",
+"text": "Rickard <br> Nordin",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0132818093422_80.jpg" 
+},
+{
+ "x":     61,
+"y":      1,
+"color": "C",
+"text": "Anders <br> Ahlgren",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0920966427818_80.jpg" 
+},
+{
+ "x":     26,
+"y":      1,
+"color": "C",
+"text": "Emil <br> Källström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0313210809828_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "C",
+"text": "Göran <br> Lindell",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0397377293714_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "C",
+"text": "Åsa <br> Torstensson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0183788551910_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "C",
+"text": "Anders <br> Åkesson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0677738818613_80.jpg" 
+},
+{
+ "x":     52,
+"y":      1,
+"color": "C",
+"text": "Anders <br> W Jonsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0229760896014_80.jpg" 
+} 
+],
+"name": "C" 
+},
+{
+ "data": [
+ {
+ "x":     80,
+"y":      1,
+"color": "FP",
+"text": "Barbro <br> Westerholm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0363228965800_80.jpg" 
+},
+{
+ "x":     69,
+"y":      1,
+"color": "FP",
+"text": "Jan <br> Ertsborn",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/09812885803_80.jpg" 
+},
+{
+ "x":     68,
+"y":      1,
+"color": "FP",
+"text": "Ulf <br> Nilsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0542573140300_80.jpg" 
+},
+{
+ "x":     67,
+"y":      1,
+"color": "FP",
+"text": "Carl B <br> Hamilton",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0477013214601_80.jpg" 
+},
+{
+ "x":     67,
+"y":      1,
+"color": "FP",
+"text": "Gunnar <br> Andrén",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0526693079901_80.jpg" 
+},
+{
+ "x":     65,
+"y":      1,
+"color": "FP",
+"text": "Anita <br> Brodén",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0977824845202_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "FP",
+"text": "Nina <br> Larsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0125036219125_80.jpg" 
+},
+{
+ "x":     36,
+"y":      1,
+"color": "FP",
+"text": "Karin <br> Granbom Ellison",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0461756329828_80.jpg" 
+},
+{
+ "x":     36,
+"y":      1,
+"color": "FP",
+"text": "Gulan <br> Avci",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0800956862429_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "FP",
+"text": "Roger <br> Haddad",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0308306375022_80.jpg" 
+},
+{
+ "x":     49,
+"y":      1,
+"color": "FP",
+"text": "Allan <br> Widman",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0446541913415_80.jpg" 
+},
+{
+ "x":     60,
+"y":      1,
+"color": "FP",
+"text": "Christer <br> Winbäck",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0455256796113_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "FP",
+"text": "Maria <br> Lundqvist-Brömster",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0240128497814_80.jpg" 
+},
+{
+ "x":     60,
+"y":      1,
+"color": "FP",
+"text": "Lars <br> Tysklind",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0535526562910_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "FP",
+"text": "Ismail <br> Kamil",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0454447556218_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "FP",
+"text": "Stefan <br> Käll",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0668060748617_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "FP",
+"text": "Tina <br> Acketoft",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0582811195313_80.jpg" 
+},
+{
+ "x":     45,
+"y":      1,
+"color": "FP",
+"text": "Johan <br> Pehrson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0224712677012_80.jpg" 
+},
+{
+ "x":     45,
+"y":      1,
+"color": "FP",
+"text": "Christer <br> Nylander",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0731442709013_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "FP",
+"text": "Emma <br> Carlsson Löfdahl",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0737073162411_80.jpg" 
+},
+{
+ "x":     54,
+"y":      1,
+"color": "FP",
+"text": "Anna <br> Steele",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0437269990517_80.jpg" 
+},
+{
+ "x":     52,
+"y":      1,
+"color": "FP",
+"text": "Nina <br> Lundström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0541320528015_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "FP",
+"text": "Hans <br> Backman",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0970400972210_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "FP",
+"text": "Eva <br> Flyborg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0401150407611_80.jpg" 
+} 
+],
+"name": "FP" 
+},
+{
+ "data": [
+ {
+ "x":     49,
+"y":      1,
+"color": "KD",
+"text": "Anders <br> Sellström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0494431859015_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "KD",
+"text": "Roland <br> Utbult",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0237055280513_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "KD",
+"text": "Lars <br> Gustafsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0534056896314_80.jpg" 
+},
+{
+ "x":     61,
+"y":      1,
+"color": "KD",
+"text": "Lars-Axel <br> Nordell",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0125056691517_80.jpg" 
+},
+{
+ "x":     66,
+"y":      1,
+"color": "KD",
+"text": "Mats <br> Odell",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0700424025906_80.jpg" 
+},
+{
+ "x":     36,
+"y":      1,
+"color": "KD",
+"text": "Emma <br> Henriksson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0788526088220_80.jpg" 
+},
+{
+ "x":     32,
+"y":      1,
+"color": "KD",
+"text": "Caroline <br> Szyber",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0666958447826_80.jpg" 
+},
+{
+ "x":     49,
+"y":      1,
+"color": "KD",
+"text": "Penilla <br> Gunther",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0925451929216_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "KD",
+"text": "Irene <br> Oskarsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0743081365718_80.jpg" 
+},
+{
+ "x":     60,
+"y":      1,
+"color": "KD",
+"text": "Annelie <br> Enochson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/045666679112_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "KD",
+"text": "Tuve <br> Skånberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0161597857912_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "KD",
+"text": "Anders <br> Andersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0777657837318_80.jpg" 
+},
+{
+ "x":     49,
+"y":      1,
+"color": "KD",
+"text": "Robert <br> Halef",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0285631067215_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "KD",
+"text": "Mikael <br> Oscarsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0973782197017_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "KD",
+"text": "Magnus <br> Sjödahl",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0534948028412_80.jpg" 
+},
+{
+ "x":     26,
+"y":      1,
+"color": "KD",
+"text": "Andreas <br> Carlson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0542160909628_80.jpg" 
+},
+{
+ "x":     54,
+"y":      1,
+"color": "KD",
+"text": "Désirée <br> Pethrus",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0860429409414_80.jpg" 
+},
+{
+ "x":     52,
+"y":      1,
+"color": "KD",
+"text": "Annika <br> Eclund",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0480339311713_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "KD",
+"text": "Yvonne <br> Andersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0223175563813_80.jpg" 
+} 
+],
+"name": "KD" 
+},
+{
+ "data": [
+ {
+ "x":     43,
+"y":      1,
+"color": "M",
+"text": "Cecilie <br> Tenfjord-Toftby",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/010343930918_80.jpg" 
+},
+{
+ "x":     36,
+"y":      1,
+"color": "M",
+"text": "Linda <br> Wemmert",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/03856618629_80.jpg" 
+},
+{
+ "x":     26,
+"y":      1,
+"color": "M",
+"text": "Hanif <br> Bali",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0166790812128_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "M",
+"text": "Anne Marie <br> Brodén",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0181478122414_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "M",
+"text": "Eva <br> Bengtson Skogsberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0472335069513_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "M",
+"text": "Marietta <br> de Pourbaix-Lundin",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0125165702713_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "M",
+"text": "Mats <br> Johansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0444616389415_80.jpg" 
+},
+{
+ "x":     72,
+"y":      1,
+"color": "M",
+"text": "Rune <br> Wikström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0743231788202_80.jpg" 
+},
+{
+ "x":     70,
+"y":      1,
+"color": "M",
+"text": "Staffan <br> Anger",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0916272051100_80.jpg" 
+},
+{
+ "x":     68,
+"y":      1,
+"color": "M",
+"text": "Peder <br> Wachtmeister",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0661283223209_80.jpg" 
+},
+{
+ "x":     67,
+"y":      1,
+"color": "M",
+"text": "Göran <br> Montan",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0248883870202_80.jpg" 
+},
+{
+ "x":     66,
+"y":      1,
+"color": "M",
+"text": "Cristina <br> Husmark Pehrsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0652944607906_80.jpg" 
+},
+{
+ "x":     65,
+"y":      1,
+"color": "M",
+"text": "Margareta B <br> Kjellin",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0196024739401_80.jpg" 
+},
+{
+ "x":     65,
+"y":      1,
+"color": "M",
+"text": "Eva <br> Lohman",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0150664940102_80.jpg" 
+},
+{
+ "x":     64,
+"y":      1,
+"color": "M",
+"text": "Gustav <br> Nilsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0568055205114_80.jpg" 
+},
+{
+ "x":     64,
+"y":      1,
+"color": "M",
+"text": "Lars <br> Elinderson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0905755961314_80.jpg" 
+},
+{
+ "x":     63,
+"y":      1,
+"color": "M",
+"text": "Katarina <br> Brännström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0128805841317_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "M",
+"text": "Christer <br> Akej",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0538777624511_80.jpg" 
+},
+{
+ "x":     32,
+"y":      1,
+"color": "M",
+"text": "Jenny <br> Petersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0176437434123_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "M",
+"text": "Michael <br> Svensson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0381918573217_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "M",
+"text": "Edward <br> Riedl",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0273506284025_80.jpg" 
+},
+{
+ "x":     49,
+"y":      1,
+"color": "M",
+"text": "Elisabeth <br> Björnsdotter Rahm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0671241874717_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "M",
+"text": "Christian <br> Holm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0485476395125_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "M",
+"text": "Thomas <br> Finnborg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0861447317415_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "M",
+"text": "Sofia <br> Arkelsten",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0802826314426_80.jpg" 
+},
+{
+ "x":     36,
+"y":      1,
+"color": "M",
+"text": "Lars <br> Hjälmered",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0980316377627_80.jpg" 
+},
+{
+ "x":     36,
+"y":      1,
+"color": "M",
+"text": "Karl <br> Sigfrid",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0469626830920_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "M",
+"text": "Eliza <br> Roszkowska Öberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0844246115721_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "M",
+"text": "Åsa <br> Coenraads",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0564126739422_80.jpg" 
+},
+{
+ "x":     34,
+"y":      1,
+"color": "M",
+"text": "Johan <br> Forssell",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0126797549328_80.jpg" 
+},
+{
+ "x":     33,
+"y":      1,
+"color": "M",
+"text": "Oskar <br> Öholm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/084677425329_80.jpg" 
+},
+{
+ "x":     32,
+"y":      1,
+"color": "M",
+"text": "Fredrik <br> Schulte",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0210198640127_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "M",
+"text": "Maria <br> Abrahamsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0695090885212_80.jpg" 
+},
+{
+ "x":     26,
+"y":      1,
+"color": "M",
+"text": "Jessica <br> Rosencrantz",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0992420223820_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "M",
+"text": "Lars-Arne <br> Staxäng",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0718937995813_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "M",
+"text": "Ulf <br> Berg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0193378456716_80.jpg" 
+},
+{
+ "x":     44,
+"y":      1,
+"color": "M",
+"text": "Camilla <br> Waltersson Grönvall",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781623040415_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "M",
+"text": "Cecilia <br> Magnusson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0522460069116_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "M",
+"text": "Krister <br> Hammarbergh",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0889860537413_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "M",
+"text": "Hans <br> Wallmark",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0980681611418_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "M",
+"text": "Olof <br> Lavesson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0448155122323_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "M",
+"text": "Anders <br> Hansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0843345349823_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "M",
+"text": "Henrik <br> von Sydow",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0292756653724_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "M",
+"text": "Edip <br> Noyan",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0178667655211_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "M",
+"text": "Per <br> Bill",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0658668232410_80.jpg" 
+},
+{
+ "x":     41,
+"y":      1,
+"color": "M",
+"text": "Jessika <br> Vilhelmsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0718034011110_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "M",
+"text": "Peter <br> Jutterström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0231938174010_80.jpg" 
+},
+{
+ "x":     30,
+"y":      1,
+"color": "M",
+"text": "Kajsa <br> Lunderquist",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0979018047922_80.jpg" 
+},
+{
+ "x":     40,
+"y":      1,
+"color": "M",
+"text": "Jonas <br> Jacobsson Gjörtler",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0495314169413_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "M",
+"text": "Finn <br> Bengtsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0721657655513_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "M",
+"text": "Lena <br> Asplund",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/088028607414_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "M",
+"text": "Gunilla <br> Nordgren",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0192918410514_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "M",
+"text": "Anti <br> Avsan",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0338458649710_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "M",
+"text": "Stefan <br> Caplan",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0409551181119_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "M",
+"text": "Bengt-Anders <br> Johansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0463955388312_80.jpg" 
+},
+{
+ "x":     60,
+"y":      1,
+"color": "M",
+"text": "Maria <br> Plass",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0791786201912_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "M",
+"text": "Mikael <br> Cederbratt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0105797223918_80.jpg" 
+},
+{
+ "x":     39,
+"y":      1,
+"color": "M",
+"text": "Gustav <br> Blix",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0741005094627_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "M",
+"text": "Tomas <br> Tobé",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/069436402021_80.jpg" 
+},
+{
+ "x":     41,
+"y":      1,
+"color": "M",
+"text": "Metin <br> Ataseven",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0135054091316_80.jpg" 
+},
+{
+ "x":     42,
+"y":      1,
+"color": "M",
+"text": "Sedat <br> Dogru",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0424684306815_80.jpg" 
+},
+{
+ "x":     31,
+"y":      1,
+"color": "M",
+"text": "Bino <br> Drummond",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0560258077929_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "M",
+"text": "Björn <br> Samuelson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0483306984615_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "M",
+"text": "Sten <br> Bergheden",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0828721176319_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "M",
+"text": "Ann-Charlotte <br> Hammar Johnsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0810201628512_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "M",
+"text": "Anette <br> Åkesson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0198031297912_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "M",
+"text": "Annicka <br> Engblom",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0590042760718_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "M",
+"text": "Gunnar <br> Axén",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0782242286018_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "M",
+"text": "Elisabeth <br> Svantesson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0899112324519_80.jpg" 
+},
+{
+ "x":     45,
+"y":      1,
+"color": "M",
+"text": "Henrik <br> Ripa",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0285352171912_80.jpg" 
+},
+{
+ "x":     45,
+"y":      1,
+"color": "M",
+"text": "Boriana <br> Åberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0105632258713_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "M",
+"text": "Anna <br> Kinberg Batra",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/012053331219_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "M",
+"text": "Patrick <br> Reslow",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0545733815610_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "M",
+"text": "Jan R <br> Andersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0529103571012_80.jpg" 
+},
+{
+ "x":     42,
+"y":      1,
+"color": "M",
+"text": "Jessica <br> Polfjärd",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0630824497414_80.jpg" 
+},
+{
+ "x":     40,
+"y":      1,
+"color": "M",
+"text": "Ulrika <br> Karlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0397924710612_80.jpg" 
+},
+{
+ "x":     40,
+"y":      1,
+"color": "M",
+"text": "Andreas <br> Norlén",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0585684563812_80.jpg" 
+},
+{
+ "x":     40,
+"y":      1,
+"color": "M",
+"text": "Cecilia <br> Widegren",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0893004490313_80.jpg" 
+},
+{
+ "x":     39,
+"y":      1,
+"color": "M",
+"text": "Gustaf <br> Hoffstedt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0316345926026_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "M",
+"text": "Susanna <br> Haby",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/08188046917_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "M",
+"text": "Abdirizak <br> Waberi",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/083921164513_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "M",
+"text": "Ellen <br> Juntti",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0144048894712_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "M",
+"text": "Ulrik <br> Nilsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0410640630411_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "M",
+"text": "Lotta <br> Olsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/066769783310_80.jpg" 
+},
+{
+ "x":     27,
+"y":      1,
+"color": "M",
+"text": "Carl-Oskar <br> Bohlin",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0108109641223_80.jpg" 
+},
+{
+ "x":     66,
+"y":      1,
+"color": "M",
+"text": "Ann-Britt <br> Åsebol",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0204494765606_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "M",
+"text": "Lars <br> Beckman",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0588282566419_80.jpg" 
+},
+{
+ "x":     52,
+"y":      1,
+"color": "M",
+"text": "Saila <br> Quicklund",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0519740099915_80.jpg" 
+},
+{
+ "x":     21,
+"y":      1,
+"color": "M",
+"text": "Anton <br> Abele",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0538982776628_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "M",
+"text": "Cecilia <br> Brinck",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0590020362617_80.jpg" 
+},
+{
+ "x":     34,
+"y":      1,
+"color": "M",
+"text": "Marta <br> Obminska",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0732677378827_80.jpg" 
+},
+{
+ "x":     28,
+"y":      1,
+"color": "M",
+"text": "Johan <br> Hultberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/069309987221_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "M",
+"text": "Jörgen <br> Andersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0859721748313_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "M",
+"text": "Betty <br> Malmberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0547818628111_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "M",
+"text": "Walburga <br> Habsburg Douglas",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0181728423812_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "M",
+"text": "Lotta <br> Finstorp",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0750518623913_80.jpg" 
+},
+{
+ "x":     54,
+"y":      1,
+"color": "M",
+"text": "Ewa <br> Thalén Finné",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0714579775816_80.jpg" 
+},
+{
+ "x":     54,
+"y":      1,
+"color": "M",
+"text": "Margareta <br> Cederfelt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0970259744617_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "M",
+"text": "Göran <br> Pettersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0558039843819_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "M",
+"text": "Jan-Evert <br> Rådhström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0946889218011_80.jpg" 
+},
+{
+ "x":     52,
+"y":      1,
+"color": "M",
+"text": "Jan <br> Ericson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0940980416614_80.jpg" 
+},
+{
+ "x":     52,
+"y":      1,
+"color": "M",
+"text": "Pia <br> Hallström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0190560012714_80.jpg" 
+},
+{
+ "x":     52,
+"y":      1,
+"color": "M",
+"text": "Hans <br> Rothenberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0409540163215_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "M",
+"text": "Isabella <br> Jernbeck",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0219220227418_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "M",
+"text": "Helena <br> Bouveng",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0729710260118_80.jpg" 
+},
+{
+ "x":     28,
+"y":      1,
+"color": "M",
+"text": "Amir <br> Adan",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/072019517020_80.jpg" 
+},
+{
+ "x":     44,
+"y":      1,
+"color": "M",
+"text": "Johan <br> Johansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0957513768616_80.jpg" 
+} 
+],
+"name": "M" 
+},
+{
+ "data": [
+ {
+ "x":     57,
+"y":      1,
+"color": "MP",
+"text": "Peter <br> Rådberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781648625615_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "MP",
+"text": "Jan <br> Lindholm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0641486384014_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "MP",
+"text": "Agneta <br> Börjesson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0139948283718_80.jpg" 
+},
+{
+ "x":     31,
+"y":      1,
+"color": "MP",
+"text": "Helena <br> Leander",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0872978640827_80.jpg" 
+},
+{
+ "x":     30,
+"y":      1,
+"color": "MP",
+"text": "Gustav <br> Fridolin",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0238588409223_80.jpg" 
+},
+{
+ "x":     44,
+"y":      1,
+"color": "MP",
+"text": "Ulf <br> Holm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0584183916016_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "MP",
+"text": "Mats <br> Pertoft",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0488357052317_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "MP",
+"text": "Magnus <br> Ehrencrona",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0266627143525_80.jpg" 
+},
+{
+ "x":     42,
+"y":      1,
+"color": "MP",
+"text": "Per <br> Bolund",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0956444284814_80.jpg" 
+},
+{
+ "x":     42,
+"y":      1,
+"color": "MP",
+"text": "Mehmet <br> Kaplan",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0116084827614_80.jpg" 
+},
+{
+ "x":     41,
+"y":      1,
+"color": "MP",
+"text": "Åsa <br> Romson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0951854268017_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "MP",
+"text": "Valter <br> Mutt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0280087199210_80.jpg" 
+},
+{
+ "x":     31,
+"y":      1,
+"color": "MP",
+"text": "Lise <br> Nordin",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0828198456420_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "MP",
+"text": "Stina <br> Bergström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0401968752713_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "MP",
+"text": "Jonas <br> Eriksson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0157062733618_80.jpg" 
+},
+{
+ "x":     68,
+"y":      1,
+"color": "MP",
+"text": "Agneta <br> Luttropp",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0919433006307_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "MP",
+"text": "Annika <br> Lillemets",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0172220256016_80.jpg" 
+},
+{
+ "x":     63,
+"y":      1,
+"color": "MP",
+"text": "Kew <br> Nordqvist",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0427695165918_80.jpg" 
+},
+{
+ "x":     28,
+"y":      1,
+"color": "MP",
+"text": "Maria <br> Ferm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0462699892622_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "MP",
+"text": "Bodil <br> Ceballos",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0637028706011_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "MP",
+"text": "Peter <br> Eriksson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0447198048312_80.jpg" 
+},
+{
+ "x":     54,
+"y":      1,
+"color": "MP",
+"text": "Jabar <br> Amin",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0849219210615_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "MP",
+"text": "Tina <br> Ehn",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0154189076919_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "MP",
+"text": "Gunvor G <br> Ericson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0640669898710_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "MP",
+"text": "Esabelle <br> Dingizian",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0182190010218_80.jpg" 
+} 
+],
+"name": "MP" 
+},
+{
+ "data": [
+ {
+ "x":     28,
+"y":      1,
+"color": "S",
+"text": "Adnan <br> Dibrani",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0442629549320_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "S",
+"text": "Kerstin <br> Nilsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0905637653912_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "S",
+"text": "Agneta <br> Gille",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0376867803913_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "S",
+"text": "Carina <br> Hägg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0600928907216_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "S",
+"text": "Catharina <br> Bråkenhielm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0264838147315_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "S",
+"text": "Lena <br> Sommestad",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0185498861416_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "S",
+"text": "Hans <br> Olsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0456305921813_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "S",
+"text": "Christina <br> Oskarsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0468775142013_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "S",
+"text": "Jan-Olof <br> Larsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0544046588414_80.jpg" 
+},
+{
+ "x":     61,
+"y":      1,
+"color": "S",
+"text": "Lennart <br> Axelsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0958776965517_80.jpg" 
+},
+{
+ "x":     68,
+"y":      1,
+"color": "S",
+"text": "Björn <br> von Sydow",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0787533297400_80.jpg" 
+},
+{
+ "x":     66,
+"y":      1,
+"color": "S",
+"text": "Carin <br> Runeson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0502174718806_80.jpg" 
+},
+{
+ "x":     66,
+"y":      1,
+"color": "S",
+"text": "Kerstin <br> Engle",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0251564185908_80.jpg" 
+},
+{
+ "x":     65,
+"y":      1,
+"color": "S",
+"text": "Billy <br> Gustafsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0933424396309_80.jpg" 
+},
+{
+ "x":     65,
+"y":      1,
+"color": "S",
+"text": "Susanne <br> Eberstein",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0235974887200_80.jpg" 
+},
+{
+ "x":     65,
+"y":      1,
+"color": "S",
+"text": "Kurt <br> Kvarnström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0262124593702_80.jpg" 
+},
+{
+ "x":     64,
+"y":      1,
+"color": "S",
+"text": "Bo <br> Bernhardsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0701525641715_80.jpg" 
+},
+{
+ "x":     63,
+"y":      1,
+"color": "S",
+"text": "Lars <br> Johansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0288805051019_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "S",
+"text": "Annelie <br> Karlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0199751900210_80.jpg" 
+},
+{
+ "x":     36,
+"y":      1,
+"color": "S",
+"text": "Hannah <br> Bergstedt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/012576033427_80.jpg" 
+},
+{
+ "x":     36,
+"y":      1,
+"color": "S",
+"text": "Fredrik <br> Lundh Sammeli",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0911916463828_80.jpg" 
+},
+{
+ "x":     33,
+"y":      1,
+"color": "S",
+"text": "Jonas <br> Gunnarsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0750727320521_80.jpg" 
+},
+{
+ "x":     33,
+"y":      1,
+"color": "S",
+"text": "Anna <br> Wallén",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0970427364222_80.jpg" 
+},
+{
+ "x":     60,
+"y":      1,
+"color": "S",
+"text": "Arhe <br> Hamednaca",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0186426023519_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "S",
+"text": "Patrik <br> Björck",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0516528386117_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "S",
+"text": "Carina <br> Ohlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0859968278117_80.jpg" 
+},
+{
+ "x":     44,
+"y":      1,
+"color": "S",
+"text": "Christer <br> Engelhardt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0936723349517_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "S",
+"text": "Ann-Kristine <br> Johansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0960030082916_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "S",
+"text": "Peter <br> Johnsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0205360448417_80.jpg" 
+},
+{
+ "x":     49,
+"y":      1,
+"color": "S",
+"text": "Ylva <br> Johansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/011731125914_80.jpg" 
+},
+{
+ "x":     49,
+"y":      1,
+"color": "S",
+"text": "Urban <br> Ahlin",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0891971250317_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "S",
+"text": "Kent <br> Härstedt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0910241260018_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "S",
+"text": "Phia <br> Andersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0133767709317_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "S",
+"text": "Johan <br> Löfstrand",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0612916684825_80.jpg" 
+},
+{
+ "x":     60,
+"y":      1,
+"color": "S",
+"text": "Ann <br> Arleklo",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0641996868011_80.jpg" 
+},
+{
+ "x":     60,
+"y":      1,
+"color": "S",
+"text": "Karin <br> Åström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0699506181311_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "S",
+"text": "Thomas <br> Strand",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0269067253614_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "S",
+"text": "Raimo <br> Pärssinen",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0113077554312_80.jpg" 
+},
+{
+ "x":     28,
+"y":      1,
+"color": "S",
+"text": "Sara <br> Karlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0114869877121_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "S",
+"text": "Clas-Göran <br> Carlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/049290762318_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "S",
+"text": "Helene <br> Petersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0617957067613_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "S",
+"text": "Anders <br> Karlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/087735695612_80.jpg" 
+},
+{
+ "x":     61,
+"y":      1,
+"color": "S",
+"text": "Krister <br> Örnfjäder",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0573136138218_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "S",
+"text": "Leif <br> Pettersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0365797008114_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "S",
+"text": "Katarina <br> Köhler",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0251617324715_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "S",
+"text": "Kerstin <br> Haglö",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0583257327619_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "S",
+"text": "Leif <br> Jakobsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0482927154110_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "S",
+"text": "Eva <br> Sonidsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0565167965311_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "S",
+"text": "Åsa <br> Lindestam",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0252067342313_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "S",
+"text": "Hans <br> Hoff",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0540190357911_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "S",
+"text": "Tommy <br> Waidelich",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0135730306412_80.jpg" 
+},
+{
+ "x":     39,
+"y":      1,
+"color": "S",
+"text": "Hillevi <br> Larsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0878075468027_80.jpg" 
+},
+{
+ "x":     39,
+"y":      1,
+"color": "S",
+"text": "Teres <br> Lindberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0559925283228_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "S",
+"text": "Ann-Christin <br> Ahlberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0909948830718_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "S",
+"text": "Ingela <br> Nylund Watz",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0313390540217_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "S",
+"text": "Ardalan <br> Shekarabi",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0922497728524_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "S",
+"text": "Isak <br> From",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0506482805418_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "S",
+"text": "Lars <br> Eriksson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0988383147219_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "S",
+"text": "Suzanne <br> Svensson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0916608741910_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "S",
+"text": "Per <br> Svedberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0447461551212_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "S",
+"text": "Lars Mejern <br> Larsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0427321850912_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "S",
+"text": "Gunilla <br> Carlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0875221317013_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "S",
+"text": "Maria <br> Stenberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0747852417614_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "S",
+"text": "Gunnar <br> Sandberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0103812031214_80.jpg" 
+},
+{
+ "x":     47,
+"y":      1,
+"color": "S",
+"text": "Tomas <br> Eneroth",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0284192765516_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "S",
+"text": "Kenneth G <br> Forslund",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0257612529618_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "S",
+"text": "Marie <br> Nordén",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0291542732518_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "S",
+"text": "Jasenko <br> Omanovic",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/043972220518_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "S",
+"text": "Olle <br> Thorell",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0879782396219_80.jpg" 
+},
+{
+ "x":     45,
+"y":      1,
+"color": "S",
+"text": "Peter <br> Jeppsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/067992138910_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "S",
+"text": "Morgan <br> Johansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0473783431010_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "S",
+"text": "Anders <br> Ygeman",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0744993950910_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "S",
+"text": "Hans <br> Unander",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0467253407311_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "S",
+"text": "Désirée <br> Liljevall",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0767503635911_80.jpg" 
+},
+{
+ "x":     42,
+"y":      1,
+"color": "S",
+"text": "Mikael <br> Damberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/014744660015_80.jpg" 
+},
+{
+ "x":     41,
+"y":      1,
+"color": "S",
+"text": "Jennie <br> Nilsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0339894357417_80.jpg" 
+},
+{
+ "x":     41,
+"y":      1,
+"color": "S",
+"text": "Ibrahim <br> Baylan",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0973474532717_80.jpg" 
+},
+{
+ "x":     41,
+"y":      1,
+"color": "S",
+"text": "Helén <br> Pettersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0103624617217_80.jpg" 
+},
+{
+ "x":     41,
+"y":      1,
+"color": "S",
+"text": "Louise <br> Malmström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0203334943718_80.jpg" 
+},
+{
+ "x":     40,
+"y":      1,
+"color": "S",
+"text": "Veronica <br> Palm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0548314774911_80.jpg" 
+},
+{
+ "x":     40,
+"y":      1,
+"color": "S",
+"text": "Matilda <br> Ernkrans",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0983984918111_80.jpg" 
+},
+{
+ "x":     40,
+"y":      1,
+"color": "S",
+"text": "Fredrik <br> Olovsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0653904370212_80.jpg" 
+},
+{
+ "x":     40,
+"y":      1,
+"color": "S",
+"text": "Meeri <br> Wasberg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0741225202024_80.jpg" 
+},
+{
+ "x":     40,
+"y":      1,
+"color": "S",
+"text": "Lena <br> Hallengren",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0853395328224_80.jpg" 
+},
+{
+ "x":     39,
+"y":      1,
+"color": "S",
+"text": "Mattias <br> Jonsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0499755198526_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "S",
+"text": "Shadiye <br> Heydari",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0231432628318_80.jpg" 
+},
+{
+ "x":     49,
+"y":      1,
+"color": "S",
+"text": "Gunilla <br> Svantorp",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0801311569314_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "S",
+"text": "Håkan <br> Bergman",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0299937536814_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "S",
+"text": "Elin <br> Lundgren",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/089246126523_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "S",
+"text": "Kristina <br> Nilsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0779781772919_80.jpg" 
+},
+{
+ "x":     57,
+"y":      1,
+"color": "S",
+"text": "Ingemar <br> Nilsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0208558695314_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "S",
+"text": "Pyry <br> Niemi",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0752691002718_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "S",
+"text": "Hans <br> Ekström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0475778011711_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "S",
+"text": "Anna-Lena <br> Sörenson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0483837558914_80.jpg" 
+},
+{
+ "x":     58,
+"y":      1,
+"color": "S",
+"text": "Peter <br> Persson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0903307301618_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "S",
+"text": "Berit <br> Högman",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0552248175312_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "S",
+"text": "Peter <br> Hultqvist",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0937688366013_80.jpg" 
+},
+{
+ "x":     54,
+"y":      1,
+"color": "S",
+"text": "Carina <br> Adolfsson Elgestam",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0731809135516_80.jpg" 
+},
+{
+ "x":     54,
+"y":      1,
+"color": "S",
+"text": "Monica <br> Green",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0975579292417_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "S",
+"text": "Börje <br> Vestlund",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0720249554818_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "S",
+"text": "Christina <br> Zedell",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0964379974219_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "S",
+"text": "Cecilia <br> Dalman Eek",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781029778411_80.jpg" 
+},
+{
+ "x":     52,
+"y":      1,
+"color": "S",
+"text": "Johan <br> Andersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0964730940415_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "S",
+"text": "Pia <br> Nilsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0460690753617_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "S",
+"text": "Christer <br> Adelsbo",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0165360915617_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "S",
+"text": "Marie <br> Granlund",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0136310791918_80.jpg" 
+},
+{
+ "x":     51,
+"y":      1,
+"color": "S",
+"text": "Håkan <br> Juholt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0110600080618_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "S",
+"text": "Caroline <br> Helmersson Olsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0537400268911_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "S",
+"text": "Yilmaz <br> Kerimo",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0515990253512_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "S",
+"text": "Jörgen <br> Hellman",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781520322912_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "S",
+"text": "Eva-Lena <br> Jansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/048970816012_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "S",
+"text": "Sven-Erik <br> Bucht",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0781357446917_80.jpg" 
+} 
+],
+"name": "S" 
+},
+{
+ "data": [
+ {
+ "x":     36,
+"y":      1,
+"color": "SD",
+"text": "Mattias <br> Karlsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0831636664429_80.jpg" 
+},
+{
+ "x":     48,
+"y":      1,
+"color": "SD",
+"text": "Mikael <br> Jansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0236051814311_80.jpg" 
+},
+{
+ "x":     41,
+"y":      1,
+"color": "SD",
+"text": "David <br> Lång",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0494054455310_80.jpg" 
+},
+{
+ "x":     69,
+"y":      1,
+"color": "SD",
+"text": "Stellan <br> Bojerud",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0575313291605_80.jpg" 
+},
+{
+ "x":     60,
+"y":      1,
+"color": "SD",
+"text": "Anna <br> Hagwall",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0105126451619_80.jpg" 
+},
+{
+ "x":     60,
+"y":      1,
+"color": "SD",
+"text": "Olle <br> Larsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0156396655712_80.jpg" 
+},
+{
+ "x":     30,
+"y":      1,
+"color": "SD",
+"text": "Adam <br> Marttinen",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0831039938224_80.jpg" 
+},
+{
+ "x":     34,
+"y":      1,
+"color": "SD",
+"text": "Jimmie <br> Åkesson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/051207517226_80.jpg" 
+},
+{
+ "x":     64,
+"y":      1,
+"color": "SD",
+"text": "Jonas <br> Åkerlund",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0879014196003_80.jpg" 
+},
+{
+ "x":     74,
+"y":      1,
+"color": "SD",
+"text": "Tony <br> Wiklander",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0693341580004_80.jpg" 
+},
+{
+ "x":     32,
+"y":      1,
+"color": "SD",
+"text": "Kent <br> Ekeroth",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0369028728526_80.jpg" 
+},
+{
+ "x":     37,
+"y":      1,
+"color": "SD",
+"text": "Björn <br> Söder",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0452755722723_80.jpg" 
+},
+{
+ "x":     45,
+"y":      1,
+"color": "SD",
+"text": "Sven-Olof <br> Sällström",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0772402807013_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "SD",
+"text": "Johnny <br> Skalin",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0455086201022_80.jpg" 
+},
+{
+ "x":     46,
+"y":      1,
+"color": "SD",
+"text": "Per <br> Ramhorn",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0925652297119_80.jpg" 
+},
+{
+ "x":     44,
+"y":      1,
+"color": "SD",
+"text": "Richard <br> Jomshof",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0803753212716_80.jpg" 
+},
+{
+ "x":     42,
+"y":      1,
+"color": "SD",
+"text": "Carina <br> Herrstedt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0603753860213_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "SD",
+"text": "Thoralf <br> Alfsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0132698667318_80.jpg" 
+},
+{
+ "x":     35,
+"y":      1,
+"color": "SD",
+"text": "Josef <br> Fransson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0211757295524_80.jpg" 
+},
+{
+ "x":     25,
+"y":      1,
+"color": "SD",
+"text": "Markus <br> Wiechel",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0204240926023_80.jpg" 
+} 
+],
+"name": "SD" 
+},
+{
+ "data": [
+ {
+ "x":     56,
+"y":      1,
+"color": "V",
+"text": "Lars <br> Ohly",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0371688419616_80.jpg" 
+},
+{
+ "x":     61,
+"y":      1,
+"color": "V",
+"text": "Eva <br> Olofsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0902086611116_80.jpg" 
+},
+{
+ "x":     65,
+"y":      1,
+"color": "V",
+"text": "Jacob <br> Johnson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/039984931601_80.jpg" 
+},
+{
+ "x":     63,
+"y":      1,
+"color": "V",
+"text": "Wiwi-Anne <br> Johansson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0995355603410_80.jpg" 
+},
+{
+ "x":     49,
+"y":      1,
+"color": "V",
+"text": "Jonas <br> Sjöstedt",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0383111552218_80.jpg" 
+},
+{
+ "x":     34,
+"y":      1,
+"color": "V",
+"text": "Hans <br> Linde",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0901257862125_80.jpg" 
+},
+{
+ "x":     42,
+"y":      1,
+"color": "V",
+"text": "Jens <br> Holm",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0216534495014_80.jpg" 
+},
+{
+ "x":     55,
+"y":      1,
+"color": "V",
+"text": "Lena <br> Olsson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0615338062910_80.jpg" 
+},
+{
+ "x":     44,
+"y":      1,
+"color": "V",
+"text": "Josefin <br> Brink",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0116603319117_80.jpg" 
+},
+{
+ "x":     56,
+"y":      1,
+"color": "V",
+"text": "Torbjörn <br> Björlund",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/037508021018_80.jpg" 
+},
+{
+ "x":     62,
+"y":      1,
+"color": "V",
+"text": "Kent <br> Persson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0124035957411_80.jpg" 
+},
+{
+ "x":     61,
+"y":      1,
+"color": "V",
+"text": "Siv <br> Holma",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0395416536118_80.jpg" 
+},
+{
+ "x":     59,
+"y":      1,
+"color": "V",
+"text": "Marianne <br> Berg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0679667648714_80.jpg" 
+},
+{
+ "x":     43,
+"y":      1,
+"color": "V",
+"text": "Amineh <br> Kakabaveh",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0545353563812_80.jpg" 
+},
+{
+ "x":     39,
+"y":      1,
+"color": "V",
+"text": "Rossana <br> Dinamarca",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0321885416125_80.jpg" 
+},
+{
+ "x":     67,
+"y":      1,
+"color": "V",
+"text": "Bengt <br> Berg",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0188653245302_80.jpg" 
+},
+{
+ "x":     42,
+"y":      1,
+"color": "V",
+"text": "Christina <br> Höj Larsen",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0521844714515_80.jpg" 
+},
+{
+ "x":     53,
+"y":      1,
+"color": "V",
+"text": "Mia <br> Sydow Mölleby",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0415959965211_80.jpg" 
+},
+{
+ "x":     50,
+"y":      1,
+"color": "V",
+"text": "Ulla <br> Andersson",
+"url": "http://data.riksdagen.se/filarkiv/bilder/ledamot/0628190530410_80.jpg" 
+} 
+],
+"name": "V" 
+} 
+],
+"plotOptions": {
+ "scatter": {
+ "marker": {
+ "symbol": "circle",
+"radius":      4 
+} 
+},
+"series": {
+ "stacking": "normal" 
+} 
+},
+"tooltip": {
+ "useHTML": true,
+"formatter":  function() {
+    return '<table height=84><tr><td>'
+    + '<img src=\"'
+    + this.point.url
+    + '\" height=80 width=60></td><td>'
+    + this.point.text + '<br><br>Age: ' + this.point.x
+    + '</td></tr></table>';}  
+},
+"chart": {
+ "type": "scatter",
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae715ff624e" 
+},
+"xAxis": [
+ {
+ "title": {
+ "text": "Age at the beginning of the year" 
+} 
+} 
+],
+"legend": {
+ "align": "top",
+"title": {
+ "text": "Party" 
+} 
+},
+"colors": [ "rgba(223, 83, 83, .5)", "rgba(60, 179, 113, .5)", "rgba(238, 130, 238, .5)", "rgba(30, 144, 255, .5)", "rgba(139, 139, 131, .5)", "rgba(55, 20, 90, .5)", "rgba(178, 230, 66, .5)", "rgba(211, 15, 15, .5)" ],
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae715ff624e" 
+});
+        });
+    })(jQuery);
+</script>
 
 </section>
     </div>
