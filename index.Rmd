@@ -12,8 +12,8 @@ lead : >
 
 # Om oss
 
-```{r echo=F, warning= F, message=F}
-opts_chunk$set(message = F, warning = F, error = F, tidy = F, cache = F, results = 'asis', echo = F)
+```{r echo=F, warning=F, message=F, cache=F}
+opts_chunk$set(message = FALSE, warning = FALSE, error = FALSE, tidy = FALSE, cache = FALSE, results = 'asis', echo = FALSE)
 ```
 
 Om Metagraf AB.

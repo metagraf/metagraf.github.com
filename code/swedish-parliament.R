@@ -23,7 +23,8 @@ fun <- function(p) {
     y = 1, 
     color = p$parti,
     text = paste(p$tilltalsnamn, '<br>', p$efternamn),
-    url = p$bild_url_80
+    url = p$bild_url_80,
+    valkrets = p$valkrets
   )
 }
 data <- prepareData(persons, fun)
@@ -46,7 +47,7 @@ a$tooltip(
     + '<img src=\"'
     + this.point.url
     + '\" height=80 width=60></td><td>'
-    + this.point.text + '<br><br>Age: ' + this.point.x
+    + this.point.text + '<br><br>Ålder: ' + this.point.x + '<br>Valkrets: ' + this.point.valkrets
     + '</td></tr></table>';} !#"
 )
 a$chart(type = "scatter")
