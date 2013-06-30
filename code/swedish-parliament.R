@@ -52,8 +52,8 @@ a$tooltip(
     + '</td></tr></table>';} !#"
 )
 a$chart(type = "scatter")
-a$xAxis(title = list(text = "Ålder i början av året"))
-a$yAxis(title = list(enabled = F), min = 0, max = 20)
+a$xAxis(title = list(text = "Ålder vid årets början"))
+a$yAxis(title = list(text = "Antal ledamöter"), min = 0, max = 20)
 # a$legend(
 #   align = 'top'#, 
 #   #verticalAlign = 'middle', 
