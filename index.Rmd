@@ -28,6 +28,8 @@ Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagr
 
 ### Interaktiv visualisering
 
+Nedan är ett exempel på en visualisering skapad med hjälp av `R` och `rCharts`.
+
 ```{r, echo = F}
 require(rCharts)
 a <- create_chart("code/swedish-parliament.R")
@@ -40,15 +42,11 @@ a$print(tempfile())
 
 - E-post: info@metagraf.se
 
-
-<!-- http://vandelaydesign.com/blog/free-resources/free-vintage-seamless-textures/ -->
-
 <style>
 body { 
   background-image:url('assets/img/23-white-cardboard-background-sml.jpg');
+  margin-bottom: 50px;
 }
-
-
 
 header {
    
@@ -65,8 +63,6 @@ header {
    -webkit-box-shadow: none;
       -moz-box-shadow: none;
            box-shadow: none;
-
-
 }
 
 .contact {
