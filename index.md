@@ -25,12 +25,12 @@ Nedan är ett exempel på graf.
 <script type='text/javascript' src=http://code.jquery.com/jquery-1.9.1.min.js></script>
 <script type='text/javascript' src=http://code.highcharts.com/highcharts.js></script>
 <script type='text/javascript' src=http://code.highcharts.com/highcharts-more.js></script>
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae72f131a73' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae77545f856' class='rChart highcharts'></div>
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae72f131a73",
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae77545f856",
 "width":    600,
 "height":    400,
 "credits": {
@@ -47,7 +47,7 @@ Nedan är ett exempel på graf.
 },
 "chart": {
  "type": "spline",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae72f131a73" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae77545f856" 
 },
 "series": [
  {
@@ -71,7 +71,7 @@ null
 "dashStyle": "shortdot" 
 } 
 ],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae72f131a73" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae77545f856" 
 });
         });
     })(jQuery);
@@ -82,12 +82,12 @@ null
 ### Exempel 2
 
 
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7774d212e' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae748734afc' class='rChart highcharts'></div>
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7774d212e",
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae748734afc",
 "width":    600,
 "height":    400,
 "credits": {
@@ -2963,7 +2963,7 @@ null
 },
 "chart": {
  "type": "scatter",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7774d212e" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae748734afc" 
 },
 "xAxis": [
  {
@@ -2979,12 +2979,14 @@ null
 } 
 },
 "colors": [ "rgba(223, 83, 83, .5)", "rgba(60, 179, 113, .5)", "rgba(238, 130, 238, .5)", "rgba(30, 144, 255, .5)", "rgba(139, 139, 131, .5)", "rgba(55, 20, 90, .5)", "rgba(178, 230, 66, .5)", "rgba(211, 15, 15, .5)" ],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7774d212e" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae748734afc" 
 });
         });
     })(jQuery);
 </script>
 
+
+<!-- http://vandelaydesign.com/blog/free-resources/free-vintage-seamless-textures/ -->
 
 <style>
 body { 
@@ -3013,6 +3015,5 @@ header {
 header img {
   margin-left: auto;
   margin-right: auto;
-
 }
 </style>

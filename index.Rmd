@@ -43,6 +43,8 @@ a <- create_chart("code/swedish-parliament.R")
 a$print(tempfile())
 ```
 
+<!-- http://vandelaydesign.com/blog/free-resources/free-vintage-seamless-textures/ -->
+
 <style>
 body { 
   background-image:url('assets/img/vintage-seamless-digital-scrapbooking-paper-textures-001-01.jpg');
