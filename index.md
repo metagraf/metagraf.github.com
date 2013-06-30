@@ -15,11 +15,11 @@ lead : >
 
 
 
-Vi är ett företag som är hjälper våra kunder att bearbeta och presentera sin data. T.ex. kan vi skapa:
+Vi är ett företag som är hjälper våra kunder att bearbeta och presentera sin data. Vi erbjuder bland annat:
   - Automatiserade PDF-rapporter
   - Flexibla dashboards
   - Interaktiva visualiseringar
-  - Webbutveckling
+  - Snabb webbutveckling
 
 Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagraf.se.
 
@@ -28,12 +28,12 @@ Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagr
 ### Interaktiv visualisering
 
 
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7732ffa70' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae750c247dc' class='rChart highcharts'></div>
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7732ffa70",
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae750c247dc",
 "width":    600,
 "height":    400,
 "credits": {
@@ -2909,7 +2909,7 @@ Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagr
 },
 "chart": {
  "type": "scatter",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7732ffa70" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae750c247dc" 
 },
 "xAxis": [
  {
@@ -2919,7 +2919,7 @@ Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagr
 } 
 ],
 "colors": [ "rgba(223, 83, 83, .5)", "rgba(60, 179, 113, .5)", "rgba(238, 130, 238, .5)", "rgba(30, 144, 255, .5)", "rgba(139, 10, 10, .5)", "rgba(55, 20, 90, .5)", "rgba(178, 230, 66, .5)", "rgba(211, 15, 15, .5)" ],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7732ffa70" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae750c247dc" 
 });
         });
     })(jQuery);
@@ -2931,7 +2931,6 @@ Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagr
 ### Kontakta oss
 
 - E-post: info@metagraf.se
-- Telefon: ...............
 
 
 <!-- http://vandelaydesign.com/blog/free-resources/free-vintage-seamless-textures/ -->
@@ -2966,6 +2965,8 @@ header {
   text-align:right;
   margin-right: 75px;
 }
+
+a:hover {text-decoration:none;}
 
 header img {
   display: block; margin-left: auto; margin-right: auto; width: 85%;

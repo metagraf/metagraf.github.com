@@ -16,11 +16,11 @@ lead : >
 opts_chunk$set(message = FALSE, warning = FALSE, error = FALSE, tidy = FALSE, cache = FALSE, results = 'asis', echo = FALSE)
 ```
 
-Vi är ett företag som är hjälper våra kunder att bearbeta och presentera sin data. T.ex. kan vi skapa:
+Vi är ett företag som är hjälper våra kunder att bearbeta och presentera sin data. Vi erbjuder bland annat:
   - Automatiserade PDF-rapporter
   - Flexibla dashboards
   - Interaktiva visualiseringar
-  - Webbutveckling
+  - Snabb webbutveckling
 
 Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagraf.se.
 
@@ -39,7 +39,6 @@ a$print(tempfile())
 ### Kontakta oss
 
 - E-post: info@metagraf.se
-- Telefon: ...............
 
 
 <!-- http://vandelaydesign.com/blog/free-resources/free-vintage-seamless-textures/ -->
@@ -74,6 +73,8 @@ header {
   text-align:right;
   margin-right: 75px;
 }
+
+a:hover {text-decoration:none;}
 
 header img {
   display: block; margin-left: auto; margin-right: auto; width: 85%;
