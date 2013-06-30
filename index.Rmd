@@ -16,11 +16,10 @@ lead : >
 opts_chunk$set(message = FALSE, warning = FALSE, error = FALSE, tidy = FALSE, cache = FALSE, results = 'asis', echo = FALSE)
 ```
 
-Vi är ett företag som är hjälper våra kunder att bearbeta och presentera sin data. Vi erbjuder bland annat:
-  - Automatiserade PDF-rapporter
-  - Flexibla dashboards
-  - Interaktiva visualiseringar
-  - Snabb webbutveckling
+Vi är ett företag som är hjälper våra kunder att bearbeta och presentera sin data, exempelvis genom:
+  - Automatiserad rapportering
+  - Interaktiv visualisering
+  - Utbildning och stöd inom R
 
 Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagraf.se.
 
