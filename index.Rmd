@@ -23,7 +23,7 @@ Om Metagraf AB.
 
 Nedan är ett exempel på graf.
 
-```{r}
+```{r, echo = F}
 require(rCharts)
 a <- Highcharts$new()
 a$chart(type = "spline")
@@ -37,7 +37,7 @@ a$print(tempfile(), include_assets = T, cdn = T)
 
 ### Exempel 2
 
-```{r}
+```{r, echo = F}
 require(rCharts)
 a <- create_chart("code/swedish-parliament.R")
 a$print(tempfile())

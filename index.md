@@ -22,27 +22,15 @@ Om Metagraf AB.
 
 Nedan är ett exempel på graf.
 
-
-```r
-require(rCharts)
-a <- Highcharts$new()
-a$chart(type = "spline")
-a$series(data = c(0, 3, 2, 4, NA), 
-  dashStyle = "longdash")
-a$series(data = c(NA, 4, 1, 3, 1), 
-  dashStyle = "shortdot")
-a$print(tempfile(), include_assets = T, cdn = T)
-```
-
 <script type='text/javascript' src=http://code.jquery.com/jquery-1.9.1.min.js></script>
 <script type='text/javascript' src=http://code.highcharts.com/highcharts.js></script>
 <script type='text/javascript' src=http://code.highcharts.com/highcharts-more.js></script>
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae73c1a99ce' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae721c9f4d1' class='rChart highcharts'></div>
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae73c1a99ce",
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae721c9f4d1",
 "width":    600,
 "height":    400,
 "credits": {
@@ -59,7 +47,7 @@ a$print(tempfile(), include_assets = T, cdn = T)
 },
 "chart": {
  "type": "spline",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae73c1a99ce" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae721c9f4d1" 
 },
 "series": [
  {
@@ -83,7 +71,7 @@ null
 "dashStyle": "shortdot" 
 } 
 ],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae73c1a99ce" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae721c9f4d1" 
 });
         });
     })(jQuery);
@@ -94,19 +82,12 @@ null
 ### Exempel 2
 
 
-```r
-require(rCharts)
-a <- create_chart("code/swedish-parliament.R")
-a$print(tempfile())
-```
-
-
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae715ff624e' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae74bbe9e8f' class='rChart highcharts'></div>
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae715ff624e",
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae74bbe9e8f",
 "width":    600,
 "height":    400,
 "credits": {
@@ -2633,7 +2614,7 @@ a$print(tempfile())
 },
 "chart": {
  "type": "scatter",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae715ff624e" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae74bbe9e8f" 
 },
 "xAxis": [
  {
@@ -2649,7 +2630,7 @@ a$print(tempfile())
 } 
 },
 "colors": [ "rgba(223, 83, 83, .5)", "rgba(60, 179, 113, .5)", "rgba(238, 130, 238, .5)", "rgba(30, 144, 255, .5)", "rgba(139, 139, 131, .5)", "rgba(55, 20, 90, .5)", "rgba(178, 230, 66, .5)", "rgba(211, 15, 15, .5)" ],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae715ff624e" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae74bbe9e8f" 
 });
         });
     })(jQuery);
