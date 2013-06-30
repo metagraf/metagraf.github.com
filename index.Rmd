@@ -7,16 +7,22 @@ ext_widgets: {rCharts: "libraries/highcharts"}
 highlighter: prettify
 hitheme: twitter-bootstrap
 lead : >
-  <img src = "assets/img/logo.png">
+  <div class="contact"><a href="https://twitter.com/intent/user?screen_name=metagrafAB"><i class="icon-twitter icon-2x"></i></a><a href="mailto:info@metagraf.se"><i class="icon-envelope icon-2x"></i></a><a href="https://github.com/metagraf"><i class="icon-github icon-2x"></i></a></div><img src = "assets/img/logo.png">
 ---
 
-# Om oss
+# Innovation och passion
 
 ```{r echo=F, warning=F, message=F, cache=F}
 opts_chunk$set(message = FALSE, warning = FALSE, error = FALSE, tidy = FALSE, cache = FALSE, results = 'asis', echo = FALSE)
 ```
 
-Om Metagraf AB.
+Vi är ett företag som är hjälper våra kunder att bearbeta och presentera sin data. T.ex. kan vi skapa:
+  - Automatiserade PDF-rapporter
+  - Flexibla dashboards
+  - Interaktiva visualiseringar
+  - Webbutveckling
+
+Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagraf.se.
 
 ---
 ### Exempel 1
@@ -43,23 +49,32 @@ a <- create_chart("code/swedish-parliament.R")
 a$print(tempfile())
 ```
 
+---
+
+### Kontakta oss
+
+- E-post: info@metagraf.se
+- Telefon: ...............
+
+
 <!-- http://vandelaydesign.com/blog/free-resources/free-vintage-seamless-textures/ -->
 
 <style>
 body { 
-  background-image:url('assets/img/vintage-seamless-digital-scrapbooking-paper-textures-001-01.jpg');
+  background-image:url('assets/img/23-white-cardboard-background-sml.jpg');
 }
+
+
+
 header {
-   margin-top: 30px;
+   
+   letter-spacing:12px;
+   margin-top: -20px;
    margin-left: -20px;
    margin-right: -20px;
    padding-top: 30px;
    padding: 19px;
 
-   border: 1px solid #d8d8d8;
-   background-color: #ffffff;
-   border-top-width: 0;
-   border-bottom-width: 2px;
    -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
            border-radius: 3px;
@@ -69,8 +84,13 @@ header {
 
 
 }
+
+.contact {
+  text-align:right;
+  margin-right: 75px;
+}
+
 header img {
-  margin-left: auto;
-  margin-right: auto;
+  display: block; margin-left: auto; margin-right: auto; width: 85%;
 }
 </style>

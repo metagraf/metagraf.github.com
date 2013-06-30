@@ -7,15 +7,21 @@ ext_widgets: {rCharts: "libraries/highcharts"}
 highlighter: prettify
 hitheme: twitter-bootstrap
 lead : >
-  <img src = "assets/img/logo.png">
+  <div class="contact"><a href="https://twitter.com/intent/user?screen_name=metagrafAB"><i class="icon-twitter icon-2x"></i></a><a href="mailto:info@metagraf.se"><i class="icon-envelope icon-2x"></i></a><a href="https://github.com/metagraf"><i class="icon-github icon-2x"></i></a></div><img src = "assets/img/logo.png">
 ---
 
-# Om oss
+# Innovation och passion
 
 
 
 
-Om Metagraf AB.
+Vi är ett företag som är hjälper våra kunder att bearbeta och presentera sin data. T.ex. kan vi skapa:
+  - Automatiserade PDF-rapporter
+  - Flexibla dashboards
+  - Interaktiva visualiseringar
+  - Webbutveckling
+
+Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagraf.se.
 
 ---
 ### Exempel 1
@@ -25,12 +31,12 @@ Nedan är ett exempel på graf.
 <script type='text/javascript' src=http://code.jquery.com/jquery-1.9.1.min.js></script>
 <script type='text/javascript' src=http://code.highcharts.com/highcharts.js></script>
 <script type='text/javascript' src=http://code.highcharts.com/highcharts-more.js></script>
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae77545f856' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76766674f' class='rChart highcharts'></div>
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae77545f856",
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76766674f",
 "width":    600,
 "height":    400,
 "credits": {
@@ -47,7 +53,7 @@ Nedan är ett exempel på graf.
 },
 "chart": {
  "type": "spline",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae77545f856" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76766674f" 
 },
 "series": [
  {
@@ -71,7 +77,7 @@ null
 "dashStyle": "shortdot" 
 } 
 ],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae77545f856" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76766674f" 
 });
         });
     })(jQuery);
@@ -82,12 +88,12 @@ null
 ### Exempel 2
 
 
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae748734afc' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76473031a' class='rChart highcharts'></div>
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae748734afc",
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76473031a",
 "width":    600,
 "height":    400,
 "credits": {
@@ -2963,7 +2969,7 @@ null
 },
 "chart": {
  "type": "scatter",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae748734afc" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76473031a" 
 },
 "xAxis": [
  {
@@ -2979,30 +2985,39 @@ null
 } 
 },
 "colors": [ "rgba(223, 83, 83, .5)", "rgba(60, 179, 113, .5)", "rgba(238, 130, 238, .5)", "rgba(30, 144, 255, .5)", "rgba(139, 139, 131, .5)", "rgba(55, 20, 90, .5)", "rgba(178, 230, 66, .5)", "rgba(211, 15, 15, .5)" ],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae748734afc" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae76473031a" 
 });
         });
     })(jQuery);
 </script>
 
 
+---
+
+### Kontakta oss
+
+- E-post: info@metagraf.se
+- Telefon: ...............
+
+
 <!-- http://vandelaydesign.com/blog/free-resources/free-vintage-seamless-textures/ -->
 
 <style>
 body { 
-  background-image:url('assets/img/vintage-seamless-digital-scrapbooking-paper-textures-001-01.jpg');
+  background-image:url('assets/img/23-white-cardboard-background-sml.jpg');
 }
+
+
+
 header {
-   margin-top: 30px;
+   
+   letter-spacing:12px;
+   margin-top: -20px;
    margin-left: -20px;
    margin-right: -20px;
    padding-top: 30px;
    padding: 19px;
 
-   border: 1px solid #d8d8d8;
-   background-color: #ffffff;
-   border-top-width: 0;
-   border-bottom-width: 2px;
    -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
            border-radius: 3px;
@@ -3012,8 +3027,13 @@ header {
 
 
 }
+
+.contact {
+  text-align:right;
+  margin-right: 75px;
+}
+
 header img {
-  margin-left: auto;
-  margin-right: auto;
+  display: block; margin-left: auto; margin-right: auto; width: 85%;
 }
 </style>
