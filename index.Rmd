@@ -45,9 +45,21 @@ p$print(tempfile())
 
 ---
 
+### GitHub
+
+Nedan listas några av de projekt som vi bidrar eller har bidragit med att utveckla:
+
+- [Coldbir](http://sthlmr.github.io/Coldbir/) av [Thomas Reinholdsson](https://github.com/reinholdsson)
+- [rCharts](http://rcharts.io/) av [Ramnath Vaidyanathan](https://github.com/ramnathv)
+- [rHighcharts](https://github.com/metagraf/rHighcharts) av [Thomas Reinholdsson](https://github.com/reinholdsson)
+- [rVega](https://github.com/metagraf/rVega) av [Thomas Reinholdsson](https://github.com/reinholdsson)
+
+---
+
 ### Kontakta oss
 
-- E-post: info@metagraf.se
+- E-mail: info@metagraf.se
+- Twitter: [metagrafAB](https://twitter.com/metagrafAB)
 
 <style>
 body { 

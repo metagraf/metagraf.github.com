@@ -69,7 +69,8 @@
       <ul class="nav nav-list bs-docs-sidenav">
         <li><a href="#slide-1"> Våra tjänster</a></li>
         <li><a href="#slide-2"> Interaktiv visualisering</a></li>
-        <li><a href="#slide-3"> Kontakta oss</a></li>
+        <li><a href="#slide-3"> GitHub</a></li>
+        <li><a href="#slide-4"> Kontakta oss</a></li>
       </ul>
     </div>
     
@@ -95,14 +96,14 @@
   </div>
   <p>Nedan följer några exempel på visualiseringar. Varav den första visar sveriges riksdagsledamöter uppdelade på ålder. Data är hämtat från Riksdagens API.</p>
 
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7319f8919' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//Rtmpqh4YRL/file649b59f59d35' class='rChart highcharts'></div>
 
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7319f8919",
-"width":    600,
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//Rtmpqh4YRL/file649b59f59d35",
+"width":    800,
 "height":    400,
 "credits": {
  "href": "http://data.riksdagen.se/",
@@ -111,15 +112,13 @@
 "title": {
  "text": "Riksdagsledamöter 2013" 
 },
-"yAxis": [
- {
+"yAxis": {
  "title": {
  "text": "Antal ledamöter" 
 },
 "min":      0,
 "max":     20 
-} 
-],
+},
 "series": [
  {
  "data": [
@@ -2977,17 +2976,15 @@
 },
 "chart": {
  "type": "scatter",
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7319f8919" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//Rtmpqh4YRL/file649b59f59d35" 
 },
-"xAxis": [
- {
+"xAxis": {
  "title": {
  "text": "Ålder vid årets början" 
 } 
-} 
-],
+},
 "colors": [ "rgba(223, 83, 83, .5)", "rgba(60, 179, 113, .5)", "rgba(238, 130, 238, .5)", "rgba(30, 144, 255, .5)", "rgba(139, 10, 10, .5)", "rgba(55, 20, 90, .5)", "rgba(178, 230, 66, .5)", "rgba(211, 15, 15, .5)" ],
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7319f8919" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//Rtmpqh4YRL/file649b59f59d35" 
 });
         });
     })(jQuery);
@@ -2995,14 +2992,14 @@
 
 <p>Nästa exempel hämtar data från Rotten Tomatoes API. Testa gärna att klicka på datapunkterna.</p>
 
-<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7dacb93f' class='rChart highcharts'></div>
+<div id='/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//Rtmpqh4YRL/file649b1bfa449b' class='rChart highcharts'></div>
 
 <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7dacb93f",
-"width":    600,
+ "dom": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//Rtmpqh4YRL/file649b1bfa449b",
+"width":    800,
 "height":    400,
 "credits": {
  "href": "http://developer.rottentomatoes.com/",
@@ -3011,16 +3008,14 @@
 "title": {
  "text": "Topplista DVD-uthyrning" 
 },
-"yAxis": [
- {
+"yAxis": {
  "title": {
  "text": "Publikbetyg" 
 },
 "labels": {
  "format": "{value} %" 
 } 
-} 
-],
+},
 "series": [
  {
  "data": [
@@ -3405,7 +3400,7 @@
 ],
 "chart": {
  "backgroundColor": null,
-"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7dacb93f" 
+"renderTo": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//Rtmpqh4YRL/file649b1bfa449b" 
 },
 "plotOptions": {
  "scatter": {
@@ -3421,16 +3416,14 @@
 } 
 } 
 },
-"xAxis": [
- {
+"xAxis": {
  "title": {
  "text": "Kritikerbetyg" 
 },
 "labels": {
  "format": "{value} %" 
 } 
-} 
-],
+},
 "tooltip": {
  "useHTML": true,
 "formatter":  function() { return this.point.name; }  
@@ -3441,7 +3434,7 @@
  "text": "MPAA-rating" 
 } 
 },
-"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//RtmpKSrKxD/file1ae7dacb93f" 
+"id": "/var/folders/gy/rnjq1zys61xfv35vz_jc27300000gn/T//Rtmpqh4YRL/file649b1bfa449b" 
 });
         });
     })(jQuery);
@@ -3450,10 +3443,25 @@
 </section>
 <section id="slide-3">
   <div class="page-header">
+    <h1>GitHub</h1>
+  </div>
+  <p>Nedan listas några av de projekt som vi bidrar eller har bidragit med att utveckla:</p>
+
+<ul>
+<li><a href="http://sthlmr.github.io/Coldbir/">Coldbir</a> av <a href="https://github.com/reinholdsson">Thomas Reinholdsson</a></li>
+<li><a href="http://rcharts.io/">rCharts</a> av <a href="https://github.com/ramnathv">Ramnath Vaidyanathan</a></li>
+<li><a href="https://github.com/metagraf/rHighcharts">rHighcharts</a> av <a href="https://github.com/reinholdsson">Thomas Reinholdsson</a></li>
+<li><a href="https://github.com/metagraf/rVega">rVega</a> av <a href="https://github.com/reinholdsson">Thomas Reinholdsson</a></li>
+</ul>
+
+</section>
+<section id="slide-4">
+  <div class="page-header">
     <h1>Kontakta oss</h1>
   </div>
   <ul>
-<li>E-post: <a href="mailto:info@metagraf.se">info@metagraf.se</a></li>
+<li>E-mail: <a href="mailto:info@metagraf.se">info@metagraf.se</a></li>
+<li>Twitter: <a href="https://twitter.com/metagrafAB">metagrafAB</a></li>
 </ul>
 
 <style>
