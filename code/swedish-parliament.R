@@ -1,5 +1,6 @@
 require(RJSONIO)
 require(rCharts)
+require(lubridate)
 
 #url <- "http://data.riksdagen.se/personlista/?iid=&fnamn=&enamn=&f_ar=&kn=&parti=&valkrets=&rdlstatus=&org=&utformat=json&termlista="
 url <- "data/personlista.json"

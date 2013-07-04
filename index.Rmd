@@ -30,17 +30,13 @@ Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagr
 Nedan följer några exempel på visualiseringar. Varav den första visar sveriges riksdagsledamöter uppdelade på ålder. Data är hämtat från Riksdagens API.
 
 ```{r, echo = F}
-require(rCharts)
-p <- create_chart("code/swedish-parliament.R")
-p$print(tempfile())
+rCharts::create_chart("code/swedish-parliament.R")
 ```
 
 Nästa exempel hämtar data från Rotten Tomatoes API. Testa gärna att klicka på datapunkterna.
 
 ```{r, echo = F}
-require(rCharts)
-p <- create_chart("code/top50.R")
-p$print(tempfile())
+rCharts::create_chart("code/top50.R")
 ```
 
 ---
