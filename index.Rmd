@@ -29,14 +29,14 @@ Om ni är intresserad av våra tjänster så kontakta oss gärna på info@metagr
 
 Nedan följer några exempel på visualiseringar. Varav den första visar sveriges riksdagsledamöter uppdelade på ålder. Data är hämtat från Riksdagens API.
 
-```{r, echo = F}
-rCharts::create_chart("code/swedish-parliament.R")
+```{r, echo = F, cache=F}
+rCharts::create_chart("code/swedish-parliament.R")$print()
 ```
 
 Nästa exempel hämtar data från Rotten Tomatoes API. Testa gärna att klicka på datapunkterna.
 
-```{r, echo = F}
-rCharts::create_chart("code/top50.R")
+```{r, echo = F, cache=F}
+rCharts::create_chart("code/top50.R")$print()
 ```
 
 ---
@@ -91,3 +91,5 @@ header img {
   display: block; margin-left: auto; margin-right: auto; width: 85%;
 }
 </style>
+
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
